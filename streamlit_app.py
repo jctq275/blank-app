@@ -22,8 +22,8 @@ st.title("Occurrence of Luciolinae Firefly Species in Malaysia")
 # Apply custom CSS for the dropdown label to make it italicized
 st.markdown("<h4 style='font-style: italic;'>Select a species to view its map:</h4>", unsafe_allow_html=True)
 
-# Dropdown for species selection
-species = st.selectbox("Select a species to view its map:", list(species_maps.keys()))
+# Dropdown for species selection (label left blank as it's already styled above)
+species = st.selectbox(" ", list(species_maps.keys()))  # Empty string in the label
 
 # Display the selected map
 map_path = species_maps[species]
