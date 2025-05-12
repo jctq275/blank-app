@@ -3,6 +3,7 @@ import streamlit.components.v1 as components
 
 # Dictionary of species and corresponding HTML map files
 species_maps = {
+    "Overall": "multi_species_distribution_with_italicized_legend_filtered.html",
     "Abscondita pallescens": "abscondita_pallescens_male_adults_map.html",
     "Abscondita nr. chinensis": "abscondita_nr_chinensis_male_adult_map.html",
     "Asymmetricata circumdata": "asymmetricata_circumdata_male_adult_map.html",
