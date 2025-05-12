@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b7c40f5f2cbaa17b20e8b8a16c4f89cd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b7c40f5f2cbaa17b20e8b8a16c4f89cd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b7c40f5f2cbaa17b20e8b8a16c4f89cd = L.map(
+                "map_b7c40f5f2cbaa17b20e8b8a16c4f89cd",
+                {
+                    center: [4.566932972972974, 102.8367040945946],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4bf373b627eba2272de3cf89c5d45b7f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4bf373b627eba2272de3cf89c5d45b7f.addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+            var circle_marker_96cbe65645fe884ef9f60a570594bca2 = L.circleMarker(
+                [3.24166, 101.68443],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_f3a183245e848521e342acdaf2587767 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ce0aaa3d7eb6c9051edbe2b0746aec42 = $(`<div id="html_ce0aaa3d7eb6c9051edbe2b0746aec42" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f3a183245e848521e342acdaf2587767.setContent(html_ce0aaa3d7eb6c9051edbe2b0746aec42);
+            
+        
+
+        circle_marker_96cbe65645fe884ef9f60a570594bca2.bindPopup(popup_f3a183245e848521e342acdaf2587767)
+        ;
+
+        
+    
+    
+            var circle_marker_b50c260ac0ca8b0dced40281fcc4a03c = L.circleMarker(
+                [3.24185, 101.68452],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_8d9d0925039fb7b66ab9aa1479c4d962 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_af990d9cac1654fd1775e3492301cab0 = $(`<div id="html_af990d9cac1654fd1775e3492301cab0" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8d9d0925039fb7b66ab9aa1479c4d962.setContent(html_af990d9cac1654fd1775e3492301cab0);
+            
+        
+
+        circle_marker_b50c260ac0ca8b0dced40281fcc4a03c.bindPopup(popup_8d9d0925039fb7b66ab9aa1479c4d962)
+        ;
+
+        
+    
+    
+            var circle_marker_87ed782fce7671c27c310cfd3c43d2a2 = L.circleMarker(
+                [3.23917, 101.69327],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_63e31bf102da53df799710bdef5c9189 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d46a20e5d515fc541ca532847621a770 = $(`<div id="html_d46a20e5d515fc541ca532847621a770" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_63e31bf102da53df799710bdef5c9189.setContent(html_d46a20e5d515fc541ca532847621a770);
+            
+        
+
+        circle_marker_87ed782fce7671c27c310cfd3c43d2a2.bindPopup(popup_63e31bf102da53df799710bdef5c9189)
+        ;
+
+        
+    
+    
+            var circle_marker_c7c0e3eabaf8b320e97320c705278d61 = L.circleMarker(
+                [3.2415, 101.68476],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_d4d31d547b8df6edaf24c8bd8f44b531 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0a6b37dddafbab50a5c11bb47b3c537c = $(`<div id="html_0a6b37dddafbab50a5c11bb47b3c537c" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d4d31d547b8df6edaf24c8bd8f44b531.setContent(html_0a6b37dddafbab50a5c11bb47b3c537c);
+            
+        
+
+        circle_marker_c7c0e3eabaf8b320e97320c705278d61.bindPopup(popup_d4d31d547b8df6edaf24c8bd8f44b531)
+        ;
+
+        
+    
+    
+            var circle_marker_8438cd2adc2d538830135e435ca9d2d0 = L.circleMarker(
+                [3.24176, 101.68445],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_83c59c7b4364a2a650499cca9bffaf6a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a441a5458e92db57bcb62c2625802f2f = $(`<div id="html_a441a5458e92db57bcb62c2625802f2f" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_83c59c7b4364a2a650499cca9bffaf6a.setContent(html_a441a5458e92db57bcb62c2625802f2f);
+            
+        
+
+        circle_marker_8438cd2adc2d538830135e435ca9d2d0.bindPopup(popup_83c59c7b4364a2a650499cca9bffaf6a)
+        ;
+
+        
+    
+    
+            var circle_marker_b9c887dce7ffcd46d8ebf7cbb9b784f4 = L.circleMarker(
+                [3.23969, 101.6927],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_77b56277c6b7d7ff5cce893a1748c4a9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3498aa2c3c544cd5631bf5870a5725f9 = $(`<div id="html_3498aa2c3c544cd5631bf5870a5725f9" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_77b56277c6b7d7ff5cce893a1748c4a9.setContent(html_3498aa2c3c544cd5631bf5870a5725f9);
+            
+        
+
+        circle_marker_b9c887dce7ffcd46d8ebf7cbb9b784f4.bindPopup(popup_77b56277c6b7d7ff5cce893a1748c4a9)
+        ;
+
+        
+    
+    
+            var circle_marker_edfb95bfa1e91977c5f8e0dda5aa1283 = L.circleMarker(
+                [3.24144, 101.68499],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_2fcd8d9bf465945de89a94eb76b39610 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_18b1f5dd84cf934fb25adf4c1c8eb969 = $(`<div id="html_18b1f5dd84cf934fb25adf4c1c8eb969" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2fcd8d9bf465945de89a94eb76b39610.setContent(html_18b1f5dd84cf934fb25adf4c1c8eb969);
+            
+        
+
+        circle_marker_edfb95bfa1e91977c5f8e0dda5aa1283.bindPopup(popup_2fcd8d9bf465945de89a94eb76b39610)
+        ;
+
+        
+    
+    
+            var circle_marker_b54428b33216d1729b567f9753e3a70e = L.circleMarker(
+                [3.24166, 101.68478],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_55a493519f134a47d65bedb0906d4f15 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dd5250c5ea52240352c038dfdc4aa469 = $(`<div id="html_dd5250c5ea52240352c038dfdc4aa469" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_55a493519f134a47d65bedb0906d4f15.setContent(html_dd5250c5ea52240352c038dfdc4aa469);
+            
+        
+
+        circle_marker_b54428b33216d1729b567f9753e3a70e.bindPopup(popup_55a493519f134a47d65bedb0906d4f15)
+        ;
+
+        
+    
+    
+            var circle_marker_5cb20362e2e14ca517b6609210729f37 = L.circleMarker(
+                [3.24161, 101.68478],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_896c896aff492449dbfebb130e1a314b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1a75badf757108cf5f870f8b6924be59 = $(`<div id="html_1a75badf757108cf5f870f8b6924be59" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_896c896aff492449dbfebb130e1a314b.setContent(html_1a75badf757108cf5f870f8b6924be59);
+            
+        
+
+        circle_marker_5cb20362e2e14ca517b6609210729f37.bindPopup(popup_896c896aff492449dbfebb130e1a314b)
+        ;
+
+        
+    
+    
+            var circle_marker_0eb2ca8298566da795148bfc00d5ea24 = L.circleMarker(
+                [3.24173, 101.68497],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_edd9e2bbf86386e603c756293b9f921b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ccc0754733827a32cdaebc31e1a9a44 = $(`<div id="html_1ccc0754733827a32cdaebc31e1a9a44" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_edd9e2bbf86386e603c756293b9f921b.setContent(html_1ccc0754733827a32cdaebc31e1a9a44);
+            
+        
+
+        circle_marker_0eb2ca8298566da795148bfc00d5ea24.bindPopup(popup_edd9e2bbf86386e603c756293b9f921b)
+        ;
+
+        
+    
+    
+            var circle_marker_1cc2d7fe25d2070fb6fad90ecf972303 = L.circleMarker(
+                [3.24249, 101.68426],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_c1a7305c52b0ad5bac53759f8e590e09 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_02af1544c7171994c0b16d49cbc7d0b0 = $(`<div id="html_02af1544c7171994c0b16d49cbc7d0b0" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c1a7305c52b0ad5bac53759f8e590e09.setContent(html_02af1544c7171994c0b16d49cbc7d0b0);
+            
+        
+
+        circle_marker_1cc2d7fe25d2070fb6fad90ecf972303.bindPopup(popup_c1a7305c52b0ad5bac53759f8e590e09)
+        ;
+
+        
+    
+    
+            var circle_marker_1c63046605c24bab9fb2af81aff1125d = L.circleMarker(
+                [3.24272, 101.68462],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_deecfa1276c554fb715d5847378e49e0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_05dd5f849555c9c0d5bba2ebbfd80619 = $(`<div id="html_05dd5f849555c9c0d5bba2ebbfd80619" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_deecfa1276c554fb715d5847378e49e0.setContent(html_05dd5f849555c9c0d5bba2ebbfd80619);
+            
+        
+
+        circle_marker_1c63046605c24bab9fb2af81aff1125d.bindPopup(popup_deecfa1276c554fb715d5847378e49e0)
+        ;
+
+        
+    
+    
+            var circle_marker_f923aba9863542bb1f39105a42c1a941 = L.circleMarker(
+                [3.24649, 101.68765],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_57d89faa3ad9fdc0ee1470706a7959d3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5adbf49ecb7712e857bbef11db9dfab2 = $(`<div id="html_5adbf49ecb7712e857bbef11db9dfab2" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_57d89faa3ad9fdc0ee1470706a7959d3.setContent(html_5adbf49ecb7712e857bbef11db9dfab2);
+            
+        
+
+        circle_marker_f923aba9863542bb1f39105a42c1a941.bindPopup(popup_57d89faa3ad9fdc0ee1470706a7959d3)
+        ;
+
+        
+    
+    
+            var circle_marker_fd1043c9adffa70d880518542d14238d = L.circleMarker(
+                [4.66145, 103.08408],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_4aafd6940d68da18fd16d97802e4e88c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d14a12645a42002837dd2d089c48d60e = $(`<div id="html_d14a12645a42002837dd2d089c48d60e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4aafd6940d68da18fd16d97802e4e88c.setContent(html_d14a12645a42002837dd2d089c48d60e);
+            
+        
+
+        circle_marker_fd1043c9adffa70d880518542d14238d.bindPopup(popup_4aafd6940d68da18fd16d97802e4e88c)
+        ;
+
+        
+    
+    
+            var circle_marker_3c038ea7ac6cfc0fb2b458df40427589 = L.circleMarker(
+                [4.66145, 103.08408],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_1efbd2707cdd18375ff890d583348683 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_79b832c08e60df362ea271dd7f1fde9a = $(`<div id="html_79b832c08e60df362ea271dd7f1fde9a" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_1efbd2707cdd18375ff890d583348683.setContent(html_79b832c08e60df362ea271dd7f1fde9a);
+            
+        
+
+        circle_marker_3c038ea7ac6cfc0fb2b458df40427589.bindPopup(popup_1efbd2707cdd18375ff890d583348683)
+        ;
+
+        
+    
+    
+            var circle_marker_f23b0c9b5308b37ff3e9b1b9f5d6ba5e = L.circleMarker(
+                [4.66379, 103.08453],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_6bc919e6b53de568ea7d26b52e7c9f20 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2f65fdd86f3ebc6492b438b4633f3cda = $(`<div id="html_2f65fdd86f3ebc6492b438b4633f3cda" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6bc919e6b53de568ea7d26b52e7c9f20.setContent(html_2f65fdd86f3ebc6492b438b4633f3cda);
+            
+        
+
+        circle_marker_f23b0c9b5308b37ff3e9b1b9f5d6ba5e.bindPopup(popup_6bc919e6b53de568ea7d26b52e7c9f20)
+        ;
+
+        
+    
+    
+            var circle_marker_213967bd1d2783e95dc9d61d9cb16231 = L.circleMarker(
+                [4.6706, 103.12106],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_765889bbe4546597c9d32a7a791b8e22 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_edb8fff892d8d02fe7beb0370e5636a0 = $(`<div id="html_edb8fff892d8d02fe7beb0370e5636a0" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_765889bbe4546597c9d32a7a791b8e22.setContent(html_edb8fff892d8d02fe7beb0370e5636a0);
+            
+        
+
+        circle_marker_213967bd1d2783e95dc9d61d9cb16231.bindPopup(popup_765889bbe4546597c9d32a7a791b8e22)
+        ;
+
+        
+    
+    
+            var circle_marker_04d5a49cc2b31679496bf12954b4e2bb = L.circleMarker(
+                [4.67124, 103.12008],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_c7d1c5a2fb286f14889789b6e1eb5ee5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_311d871f0b31e5b7b98ade5738fc08f4 = $(`<div id="html_311d871f0b31e5b7b98ade5738fc08f4" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c7d1c5a2fb286f14889789b6e1eb5ee5.setContent(html_311d871f0b31e5b7b98ade5738fc08f4);
+            
+        
+
+        circle_marker_04d5a49cc2b31679496bf12954b4e2bb.bindPopup(popup_c7d1c5a2fb286f14889789b6e1eb5ee5)
+        ;
+
+        
+    
+    
+            var circle_marker_fc5065c29b7bbffdd809a11bd2775152 = L.circleMarker(
+                [4.66051, 102.99549],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_f02ac930918f54aa0da6767179d235a1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ee4619ca85ab701f9ae3294cac027b3 = $(`<div id="html_1ee4619ca85ab701f9ae3294cac027b3" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f02ac930918f54aa0da6767179d235a1.setContent(html_1ee4619ca85ab701f9ae3294cac027b3);
+            
+        
+
+        circle_marker_fc5065c29b7bbffdd809a11bd2775152.bindPopup(popup_f02ac930918f54aa0da6767179d235a1)
+        ;
+
+        
+    
+    
+            var circle_marker_b807ea5adb753b392b42eb51b78ec676 = L.circleMarker(
+                [4.65957, 102.998],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_3eac90c9e5911c66ca2719d9ee5ac678 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a142e443251cee2b7a4a6e0a36465d5 = $(`<div id="html_2a142e443251cee2b7a4a6e0a36465d5" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3eac90c9e5911c66ca2719d9ee5ac678.setContent(html_2a142e443251cee2b7a4a6e0a36465d5);
+            
+        
+
+        circle_marker_b807ea5adb753b392b42eb51b78ec676.bindPopup(popup_3eac90c9e5911c66ca2719d9ee5ac678)
+        ;
+
+        
+    
+    
+            var circle_marker_ade49a15e0b5caebd55aed97f59f3344 = L.circleMarker(
+                [4.65957, 102.998],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_1d3b3d87b1ef95b31d1288a7e90f6830 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b938f8fc1587d8c641fc24da67f55719 = $(`<div id="html_b938f8fc1587d8c641fc24da67f55719" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_1d3b3d87b1ef95b31d1288a7e90f6830.setContent(html_b938f8fc1587d8c641fc24da67f55719);
+            
+        
+
+        circle_marker_ade49a15e0b5caebd55aed97f59f3344.bindPopup(popup_1d3b3d87b1ef95b31d1288a7e90f6830)
+        ;
+
+        
+    
+    
+            var circle_marker_ac424a738c4c75fa91d4b308b020c09f = L.circleMarker(
+                [4.66014, 102.99647],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_1ca4146d18673d2355c998282538872b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2065b0f0330e9ca2fa8eefd74514dfb7 = $(`<div id="html_2065b0f0330e9ca2fa8eefd74514dfb7" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_1ca4146d18673d2355c998282538872b.setContent(html_2065b0f0330e9ca2fa8eefd74514dfb7);
+            
+        
+
+        circle_marker_ac424a738c4c75fa91d4b308b020c09f.bindPopup(popup_1ca4146d18673d2355c998282538872b)
+        ;
+
+        
+    
+    
+            var circle_marker_6f39c46dcc9e813710a9b772d8157340 = L.circleMarker(
+                [4.66014, 102.99647],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_82b68a11d0aadab4636310ea4b8bb8f6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2b68dd7339c97eb84c3c25d4c380026c = $(`<div id="html_2b68dd7339c97eb84c3c25d4c380026c" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_82b68a11d0aadab4636310ea4b8bb8f6.setContent(html_2b68dd7339c97eb84c3c25d4c380026c);
+            
+        
+
+        circle_marker_6f39c46dcc9e813710a9b772d8157340.bindPopup(popup_82b68a11d0aadab4636310ea4b8bb8f6)
+        ;
+
+        
+    
+    
+            var circle_marker_c7b4a58e2ee5ae45fe1114483d35dfd0 = L.circleMarker(
+                [4.66014, 102.99647],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_248558bd6e10ab607d1fc2dc418118e3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2345258e19b242ec94025c51cb287af0 = $(`<div id="html_2345258e19b242ec94025c51cb287af0" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_248558bd6e10ab607d1fc2dc418118e3.setContent(html_2345258e19b242ec94025c51cb287af0);
+            
+        
+
+        circle_marker_c7b4a58e2ee5ae45fe1114483d35dfd0.bindPopup(popup_248558bd6e10ab607d1fc2dc418118e3)
+        ;
+
+        
+    
+    
+            var circle_marker_17805a477172761f15ffd72f5e7abef7 = L.circleMarker(
+                [4.92642, 103.09367],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_a2930b0db64b39917809a9bbca48f55e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b52bb3553d526228487007d61249ace4 = $(`<div id="html_b52bb3553d526228487007d61249ace4" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a2930b0db64b39917809a9bbca48f55e.setContent(html_b52bb3553d526228487007d61249ace4);
+            
+        
+
+        circle_marker_17805a477172761f15ffd72f5e7abef7.bindPopup(popup_a2930b0db64b39917809a9bbca48f55e)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd40d4c01f1a94b13323576bee6ebd8 = L.circleMarker(
+                [4.92488, 103.0934],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_026818293fd0a8678085d1947aa86646 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_76899b5816f3a9bd9631edaa803fdb81 = $(`<div id="html_76899b5816f3a9bd9631edaa803fdb81" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_026818293fd0a8678085d1947aa86646.setContent(html_76899b5816f3a9bd9631edaa803fdb81);
+            
+        
+
+        circle_marker_6bd40d4c01f1a94b13323576bee6ebd8.bindPopup(popup_026818293fd0a8678085d1947aa86646)
+        ;
+
+        
+    
+    
+            var circle_marker_f0997198c56ade9296ad1c9293d71eb3 = L.circleMarker(
+                [4.92479, 103.09047],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_34dc19e606fca2f971823ba99bc149d6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d2faee31d9e6822bf6944c71782a9dbf = $(`<div id="html_d2faee31d9e6822bf6944c71782a9dbf" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_34dc19e606fca2f971823ba99bc149d6.setContent(html_d2faee31d9e6822bf6944c71782a9dbf);
+            
+        
+
+        circle_marker_f0997198c56ade9296ad1c9293d71eb3.bindPopup(popup_34dc19e606fca2f971823ba99bc149d6)
+        ;
+
+        
+    
+    
+            var circle_marker_ea1869c8dafdd200d0fab54df11972dd = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_fdf520551b24d86442a63d5c70d7f165 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_817d98c83823e5185aac75afe368b087 = $(`<div id="html_817d98c83823e5185aac75afe368b087" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_fdf520551b24d86442a63d5c70d7f165.setContent(html_817d98c83823e5185aac75afe368b087);
+            
+        
+
+        circle_marker_ea1869c8dafdd200d0fab54df11972dd.bindPopup(popup_fdf520551b24d86442a63d5c70d7f165)
+        ;
+
+        
+    
+    
+            var circle_marker_e603aa4c47fd23018a88b52e1120ebf3 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_a60a9fa10ba82373d9402b6c83c5f84e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6209d559c98901f4d093f55b5ee14df1 = $(`<div id="html_6209d559c98901f4d093f55b5ee14df1" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a60a9fa10ba82373d9402b6c83c5f84e.setContent(html_6209d559c98901f4d093f55b5ee14df1);
+            
+        
+
+        circle_marker_e603aa4c47fd23018a88b52e1120ebf3.bindPopup(popup_a60a9fa10ba82373d9402b6c83c5f84e)
+        ;
+
+        
+    
+    
+            var circle_marker_3117eabbf4c32d455107a02f028f3123 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_50acd2820f119b8038cbe8185504bc7b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7ded6bcbf23c37eebc66f89eefce23f4 = $(`<div id="html_7ded6bcbf23c37eebc66f89eefce23f4" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_50acd2820f119b8038cbe8185504bc7b.setContent(html_7ded6bcbf23c37eebc66f89eefce23f4);
+            
+        
+
+        circle_marker_3117eabbf4c32d455107a02f028f3123.bindPopup(popup_50acd2820f119b8038cbe8185504bc7b)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff9f8caba752edd29c912ea2fb8b6e1 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_98efcfefa082a7345cf59501cbca8307 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_92a26837d7a4f82a6ab67b4d58480a58 = $(`<div id="html_92a26837d7a4f82a6ab67b4d58480a58" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_98efcfefa082a7345cf59501cbca8307.setContent(html_92a26837d7a4f82a6ab67b4d58480a58);
+            
+        
+
+        circle_marker_9ff9f8caba752edd29c912ea2fb8b6e1.bindPopup(popup_98efcfefa082a7345cf59501cbca8307)
+        ;
+
+        
+    
+    
+            var circle_marker_cfe737df824f0d10c55f4d8bdf777834 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_4c22bf358235d2c8ff0300895e0acab4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b6bd115bdb29c49d3b25f949265134dd = $(`<div id="html_b6bd115bdb29c49d3b25f949265134dd" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4c22bf358235d2c8ff0300895e0acab4.setContent(html_b6bd115bdb29c49d3b25f949265134dd);
+            
+        
+
+        circle_marker_cfe737df824f0d10c55f4d8bdf777834.bindPopup(popup_4c22bf358235d2c8ff0300895e0acab4)
+        ;
+
+        
+    
+    
+            var circle_marker_31e021ccbefc9d92f07ff5132e392747 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_778e1e395efca8779bfd39f6aa72c702 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_287d549da9cf60b3c2b8c044db49c508 = $(`<div id="html_287d549da9cf60b3c2b8c044db49c508" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_778e1e395efca8779bfd39f6aa72c702.setContent(html_287d549da9cf60b3c2b8c044db49c508);
+            
+        
+
+        circle_marker_31e021ccbefc9d92f07ff5132e392747.bindPopup(popup_778e1e395efca8779bfd39f6aa72c702)
+        ;
+
+        
+    
+    
+            var circle_marker_7bcaaf6b20310f427a8f5c8c80ace9c8 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_0028fed400e5a2d776ce100a007ba5dd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_267765b1717fb6ff1300075de7a9beaa = $(`<div id="html_267765b1717fb6ff1300075de7a9beaa" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_0028fed400e5a2d776ce100a007ba5dd.setContent(html_267765b1717fb6ff1300075de7a9beaa);
+            
+        
+
+        circle_marker_7bcaaf6b20310f427a8f5c8c80ace9c8.bindPopup(popup_0028fed400e5a2d776ce100a007ba5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_c2501e71472693b40334d56960e9d2ed = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_1372b56c31a18eb6545d02709d5cf6b8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bd53a0d550ef6e11144ee78a2e7042b7 = $(`<div id="html_bd53a0d550ef6e11144ee78a2e7042b7" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_1372b56c31a18eb6545d02709d5cf6b8.setContent(html_bd53a0d550ef6e11144ee78a2e7042b7);
+            
+        
+
+        circle_marker_c2501e71472693b40334d56960e9d2ed.bindPopup(popup_1372b56c31a18eb6545d02709d5cf6b8)
+        ;
+
+        
+    
+    
+            var circle_marker_09275a26e527bb217ed594d165227579 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_e135ea31c7db41ea04e4b94b573a3f3b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_026d66ba61b3b981a508cee64bf3708c = $(`<div id="html_026d66ba61b3b981a508cee64bf3708c" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e135ea31c7db41ea04e4b94b573a3f3b.setContent(html_026d66ba61b3b981a508cee64bf3708c);
+            
+        
+
+        circle_marker_09275a26e527bb217ed594d165227579.bindPopup(popup_e135ea31c7db41ea04e4b94b573a3f3b)
+        ;
+
+        
+    
+    
+            var circle_marker_1a722203eb2fa042a26c8b79b67f07ae = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_a0f98075d36564c2fd6bebc16a7c8628 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f2bef3260903186929dcfe0866e12178 = $(`<div id="html_f2bef3260903186929dcfe0866e12178" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a0f98075d36564c2fd6bebc16a7c8628.setContent(html_f2bef3260903186929dcfe0866e12178);
+            
+        
+
+        circle_marker_1a722203eb2fa042a26c8b79b67f07ae.bindPopup(popup_a0f98075d36564c2fd6bebc16a7c8628)
+        ;
+
+        
+    
+    
+            var circle_marker_d4a2950eb67d5743a317a88112f864f2 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_26b718fe775bab1fda55f1b9e06bc09b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9a61f2bb36e7141f048b0180debd32ea = $(`<div id="html_9a61f2bb36e7141f048b0180debd32ea" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_26b718fe775bab1fda55f1b9e06bc09b.setContent(html_9a61f2bb36e7141f048b0180debd32ea);
+            
+        
+
+        circle_marker_d4a2950eb67d5743a317a88112f864f2.bindPopup(popup_26b718fe775bab1fda55f1b9e06bc09b)
+        ;
+
+        
+    
+    
+            var circle_marker_e1f49b732e7cd17e27f8c1a9ead7d55c = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_91cbc8bc361d86e16d8d00b00165109d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_783e6b99b763e84d3f2b838ce6bb787a = $(`<div id="html_783e6b99b763e84d3f2b838ce6bb787a" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_91cbc8bc361d86e16d8d00b00165109d.setContent(html_783e6b99b763e84d3f2b838ce6bb787a);
+            
+        
+
+        circle_marker_e1f49b732e7cd17e27f8c1a9ead7d55c.bindPopup(popup_91cbc8bc361d86e16d8d00b00165109d)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba8ec05b524cdfc26fce0e74c8dbe54 = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_918fd8c3d048c9da224c25cad8bb5e10 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e0eef3d7f1b040c9ca5c0ba97d7dd74d = $(`<div id="html_e0eef3d7f1b040c9ca5c0ba97d7dd74d" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_918fd8c3d048c9da224c25cad8bb5e10.setContent(html_e0eef3d7f1b040c9ca5c0ba97d7dd74d);
+            
+        
+
+        circle_marker_5ba8ec05b524cdfc26fce0e74c8dbe54.bindPopup(popup_918fd8c3d048c9da224c25cad8bb5e10)
+        ;
+
+        
+    
+    
+            var circle_marker_43330dac96cbc08f0bf8e8359d63d83f = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_e8700970b337329e40407678bd61adf3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_08ac04276c929fde8b18974bd907ce35 = $(`<div id="html_08ac04276c929fde8b18974bd907ce35" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e8700970b337329e40407678bd61adf3.setContent(html_08ac04276c929fde8b18974bd907ce35);
+            
+        
+
+        circle_marker_43330dac96cbc08f0bf8e8359d63d83f.bindPopup(popup_e8700970b337329e40407678bd61adf3)
+        ;
+
+        
+    
+    
+            var circle_marker_ebfd31f71e57c9a57721ddbf60abd23c = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_3f23feacfd1eb24ffc66e86a246997a6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d6536edd7d5a91fc5e4ef1dad861e27e = $(`<div id="html_d6536edd7d5a91fc5e4ef1dad861e27e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3f23feacfd1eb24ffc66e86a246997a6.setContent(html_d6536edd7d5a91fc5e4ef1dad861e27e);
+            
+        
+
+        circle_marker_ebfd31f71e57c9a57721ddbf60abd23c.bindPopup(popup_3f23feacfd1eb24ffc66e86a246997a6)
+        ;
+
+        
+    
+    
+            var circle_marker_726bc42aa6390bb55e11a6eb67b7105b = L.circleMarker(
+                [4.92586, 103.09053],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_51c1867798f5692fbff70016c29e0da3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_21b3d58773567c2fbb9b1f8cb35c95fe = $(`<div id="html_21b3d58773567c2fbb9b1f8cb35c95fe" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_51c1867798f5692fbff70016c29e0da3.setContent(html_21b3d58773567c2fbb9b1f8cb35c95fe);
+            
+        
+
+        circle_marker_726bc42aa6390bb55e11a6eb67b7105b.bindPopup(popup_51c1867798f5692fbff70016c29e0da3)
+        ;
+
+        
+    
+    
+            var circle_marker_d853a170555515eb9403308c44f31143 = L.circleMarker(
+                [4.92572, 103.09148],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_365099e53cf0925a3881f84baad7c64c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c52fca2d99be6a40a54fe9dd3359f183 = $(`<div id="html_c52fca2d99be6a40a54fe9dd3359f183" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_365099e53cf0925a3881f84baad7c64c.setContent(html_c52fca2d99be6a40a54fe9dd3359f183);
+            
+        
+
+        circle_marker_d853a170555515eb9403308c44f31143.bindPopup(popup_365099e53cf0925a3881f84baad7c64c)
+        ;
+
+        
+    
+    
+            var circle_marker_84d9ff58d119580706ad4e582b301aa5 = L.circleMarker(
+                [4.92432, 103.08348],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_eec57904e7e49e3775ad190e56b16184 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7e9984f6c1b1d00a73a56133091fa36a = $(`<div id="html_7e9984f6c1b1d00a73a56133091fa36a" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_eec57904e7e49e3775ad190e56b16184.setContent(html_7e9984f6c1b1d00a73a56133091fa36a);
+            
+        
+
+        circle_marker_84d9ff58d119580706ad4e582b301aa5.bindPopup(popup_eec57904e7e49e3775ad190e56b16184)
+        ;
+
+        
+    
+    
+            var circle_marker_0c6307a5d0a8499d8543ef1e4d2db235 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_bae79efa671250c5215ff84e28ba30c0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_72e9c8fdba9710c0c5296ca316e7812b = $(`<div id="html_72e9c8fdba9710c0c5296ca316e7812b" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bae79efa671250c5215ff84e28ba30c0.setContent(html_72e9c8fdba9710c0c5296ca316e7812b);
+            
+        
+
+        circle_marker_0c6307a5d0a8499d8543ef1e4d2db235.bindPopup(popup_bae79efa671250c5215ff84e28ba30c0)
+        ;
+
+        
+    
+    
+            var circle_marker_c62c533316061f1359beb6c3a50e8937 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_4a356c1d3725a477329b61679c2505d9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f3dce33ce5df49e2fbfd558522acc3f2 = $(`<div id="html_f3dce33ce5df49e2fbfd558522acc3f2" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4a356c1d3725a477329b61679c2505d9.setContent(html_f3dce33ce5df49e2fbfd558522acc3f2);
+            
+        
+
+        circle_marker_c62c533316061f1359beb6c3a50e8937.bindPopup(popup_4a356c1d3725a477329b61679c2505d9)
+        ;
+
+        
+    
+    
+            var circle_marker_61a23429edc42ec4bf061883eae96df0 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_6910cbc5cc4873549366e620330f2d84 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54b5a8a831dd094e8ab7b8589a38152e = $(`<div id="html_54b5a8a831dd094e8ab7b8589a38152e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6910cbc5cc4873549366e620330f2d84.setContent(html_54b5a8a831dd094e8ab7b8589a38152e);
+            
+        
+
+        circle_marker_61a23429edc42ec4bf061883eae96df0.bindPopup(popup_6910cbc5cc4873549366e620330f2d84)
+        ;
+
+        
+    
+    
+            var circle_marker_a667073ec3f8d899d5c829d4ff3fdad1 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_a960e9f024c7b86eb277b27ebd1e9577 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9bab4fd48481de9dbeac34375095b062 = $(`<div id="html_9bab4fd48481de9dbeac34375095b062" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a960e9f024c7b86eb277b27ebd1e9577.setContent(html_9bab4fd48481de9dbeac34375095b062);
+            
+        
+
+        circle_marker_a667073ec3f8d899d5c829d4ff3fdad1.bindPopup(popup_a960e9f024c7b86eb277b27ebd1e9577)
+        ;
+
+        
+    
+    
+            var circle_marker_ccf1a26dc396fb6da3fa9f8ae67e5999 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_154c987ffe94e347a53505171cff882e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_97e4c9d881b87518e1bd81ae39e20f5a = $(`<div id="html_97e4c9d881b87518e1bd81ae39e20f5a" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_154c987ffe94e347a53505171cff882e.setContent(html_97e4c9d881b87518e1bd81ae39e20f5a);
+            
+        
+
+        circle_marker_ccf1a26dc396fb6da3fa9f8ae67e5999.bindPopup(popup_154c987ffe94e347a53505171cff882e)
+        ;
+
+        
+    
+    
+            var circle_marker_193e2855dc2810d80af6e237610e078e = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_85e54e187bef62312c020a3a67bdc334 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_aa67779949f37ae053a3bf86d69da35a = $(`<div id="html_aa67779949f37ae053a3bf86d69da35a" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_85e54e187bef62312c020a3a67bdc334.setContent(html_aa67779949f37ae053a3bf86d69da35a);
+            
+        
+
+        circle_marker_193e2855dc2810d80af6e237610e078e.bindPopup(popup_85e54e187bef62312c020a3a67bdc334)
+        ;
+
+        
+    
+    
+            var circle_marker_9f635f35bfadd4b3a2c43715688c70be = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_d375aa771a22d836f2854b289f597fd7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c3a4901343d3b1fb1ddf62990476fada = $(`<div id="html_c3a4901343d3b1fb1ddf62990476fada" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d375aa771a22d836f2854b289f597fd7.setContent(html_c3a4901343d3b1fb1ddf62990476fada);
+            
+        
+
+        circle_marker_9f635f35bfadd4b3a2c43715688c70be.bindPopup(popup_d375aa771a22d836f2854b289f597fd7)
+        ;
+
+        
+    
+    
+            var circle_marker_820e9d8cb29e75f4711979ab0ae8a9d2 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_d0c1cb20753e76d39f84974e7bd704c2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_69434fd4ac42cec1b18184efd32ab68f = $(`<div id="html_69434fd4ac42cec1b18184efd32ab68f" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d0c1cb20753e76d39f84974e7bd704c2.setContent(html_69434fd4ac42cec1b18184efd32ab68f);
+            
+        
+
+        circle_marker_820e9d8cb29e75f4711979ab0ae8a9d2.bindPopup(popup_d0c1cb20753e76d39f84974e7bd704c2)
+        ;
+
+        
+    
+    
+            var circle_marker_76eea74be2794e443eac9ee706237f63 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_a498d2a68f679ce638e027ced6eebbc7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_79fbc25aaab7dc490ad4caf4d90b5d73 = $(`<div id="html_79fbc25aaab7dc490ad4caf4d90b5d73" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a498d2a68f679ce638e027ced6eebbc7.setContent(html_79fbc25aaab7dc490ad4caf4d90b5d73);
+            
+        
+
+        circle_marker_76eea74be2794e443eac9ee706237f63.bindPopup(popup_a498d2a68f679ce638e027ced6eebbc7)
+        ;
+
+        
+    
+    
+            var circle_marker_dd1f25ad73a21d540fcfdc0fade5ef45 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_61278e45e743b00a8ddbcf0ddebbf260 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6da63af00b8b4ad335065c636b58e84e = $(`<div id="html_6da63af00b8b4ad335065c636b58e84e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_61278e45e743b00a8ddbcf0ddebbf260.setContent(html_6da63af00b8b4ad335065c636b58e84e);
+            
+        
+
+        circle_marker_dd1f25ad73a21d540fcfdc0fade5ef45.bindPopup(popup_61278e45e743b00a8ddbcf0ddebbf260)
+        ;
+
+        
+    
+    
+            var circle_marker_33061e704e043ad50edff60ea9c29202 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_93a7d363583ed1e0612ba5b31583ebec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_17e92f28deb33d134a6c5eb065933e0b = $(`<div id="html_17e92f28deb33d134a6c5eb065933e0b" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_93a7d363583ed1e0612ba5b31583ebec.setContent(html_17e92f28deb33d134a6c5eb065933e0b);
+            
+        
+
+        circle_marker_33061e704e043ad50edff60ea9c29202.bindPopup(popup_93a7d363583ed1e0612ba5b31583ebec)
+        ;
+
+        
+    
+    
+            var circle_marker_d53bf166cfd667788aecf5ec11620bbf = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_3b8abca50a451ff98d6679a6f5518044 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1bd3a076c072240ea2fc5699f94078b3 = $(`<div id="html_1bd3a076c072240ea2fc5699f94078b3" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3b8abca50a451ff98d6679a6f5518044.setContent(html_1bd3a076c072240ea2fc5699f94078b3);
+            
+        
+
+        circle_marker_d53bf166cfd667788aecf5ec11620bbf.bindPopup(popup_3b8abca50a451ff98d6679a6f5518044)
+        ;
+
+        
+    
+    
+            var circle_marker_04e15f16f883ad85b1d6395a7106e7fc = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_b38934e6c970165aae2a23d009b21701 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0ad85f9c3892728be47d960a29e88a8b = $(`<div id="html_0ad85f9c3892728be47d960a29e88a8b" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_b38934e6c970165aae2a23d009b21701.setContent(html_0ad85f9c3892728be47d960a29e88a8b);
+            
+        
+
+        circle_marker_04e15f16f883ad85b1d6395a7106e7fc.bindPopup(popup_b38934e6c970165aae2a23d009b21701)
+        ;
+
+        
+    
+    
+            var circle_marker_d7c304801707ee2735db900108449aeb = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_6f7e6ecc14a6d47dc7e934232b985843 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9c773872b4caf39d20e8679d7041deb7 = $(`<div id="html_9c773872b4caf39d20e8679d7041deb7" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6f7e6ecc14a6d47dc7e934232b985843.setContent(html_9c773872b4caf39d20e8679d7041deb7);
+            
+        
+
+        circle_marker_d7c304801707ee2735db900108449aeb.bindPopup(popup_6f7e6ecc14a6d47dc7e934232b985843)
+        ;
+
+        
+    
+    
+            var circle_marker_eef070d46979e30f46dbc03a6f28992a = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_d59c608488df080848ddde072307f4f7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b0f6b9719fe30d3847e07c3f2554758d = $(`<div id="html_b0f6b9719fe30d3847e07c3f2554758d" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d59c608488df080848ddde072307f4f7.setContent(html_b0f6b9719fe30d3847e07c3f2554758d);
+            
+        
+
+        circle_marker_eef070d46979e30f46dbc03a6f28992a.bindPopup(popup_d59c608488df080848ddde072307f4f7)
+        ;
+
+        
+    
+    
+            var circle_marker_5109e1bf3915889d1f554079337cb706 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_37819d60061181a9bbccc2d67916b41d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_19c3f439896cf6437169d216912dfa59 = $(`<div id="html_19c3f439896cf6437169d216912dfa59" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_37819d60061181a9bbccc2d67916b41d.setContent(html_19c3f439896cf6437169d216912dfa59);
+            
+        
+
+        circle_marker_5109e1bf3915889d1f554079337cb706.bindPopup(popup_37819d60061181a9bbccc2d67916b41d)
+        ;
+
+        
+    
+    
+            var circle_marker_6cb9e61a24a0de15bf64db8306626d76 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_18fd90601bc19b29ce0fbf9b8099d450 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e38df45883d7af18b68811f9cc53391c = $(`<div id="html_e38df45883d7af18b68811f9cc53391c" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_18fd90601bc19b29ce0fbf9b8099d450.setContent(html_e38df45883d7af18b68811f9cc53391c);
+            
+        
+
+        circle_marker_6cb9e61a24a0de15bf64db8306626d76.bindPopup(popup_18fd90601bc19b29ce0fbf9b8099d450)
+        ;
+
+        
+    
+    
+            var circle_marker_ba1205c0ea8c3a3964549fad1ab40982 = L.circleMarker(
+                [4.9272, 103.09326],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_9f6c1a9acaad732ffc4ee850f03e06ef = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_871caec7828f91551d9e27068312810e = $(`<div id="html_871caec7828f91551d9e27068312810e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9f6c1a9acaad732ffc4ee850f03e06ef.setContent(html_871caec7828f91551d9e27068312810e);
+            
+        
+
+        circle_marker_ba1205c0ea8c3a3964549fad1ab40982.bindPopup(popup_9f6c1a9acaad732ffc4ee850f03e06ef)
+        ;
+
+        
+    
+    
+            var circle_marker_8bb9638cc36c467d05af19c0a88cd551 = L.circleMarker(
+                [4.92881, 103.09348],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_7bdaa57e8664aa3aa12a72a61a0c85e4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6f99d8538fef81a25b0bde44b5f0b69e = $(`<div id="html_6f99d8538fef81a25b0bde44b5f0b69e" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_7bdaa57e8664aa3aa12a72a61a0c85e4.setContent(html_6f99d8538fef81a25b0bde44b5f0b69e);
+            
+        
+
+        circle_marker_8bb9638cc36c467d05af19c0a88cd551.bindPopup(popup_7bdaa57e8664aa3aa12a72a61a0c85e4)
+        ;
+
+        
+    
+    
+            var circle_marker_35593849629547d69a521a720b9fe8d8 = L.circleMarker(
+                [4.92881, 103.09348],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_14179ea7cca9f1c182216cdce013a1b3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_60e0bcd106f43813b48dec5916e68a38 = $(`<div id="html_60e0bcd106f43813b48dec5916e68a38" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_14179ea7cca9f1c182216cdce013a1b3.setContent(html_60e0bcd106f43813b48dec5916e68a38);
+            
+        
+
+        circle_marker_35593849629547d69a521a720b9fe8d8.bindPopup(popup_14179ea7cca9f1c182216cdce013a1b3)
+        ;
+
+        
+    
+    
+            var circle_marker_3c09039fe6f5f1b1d43986d9b42d3c56 = L.circleMarker(
+                [4.92852, 103.09097],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_695e963c0d45046ecd496bb5c57b2966 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fb1b58fba5b35b988805ed47c707a618 = $(`<div id="html_fb1b58fba5b35b988805ed47c707a618" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_695e963c0d45046ecd496bb5c57b2966.setContent(html_fb1b58fba5b35b988805ed47c707a618);
+            
+        
+
+        circle_marker_3c09039fe6f5f1b1d43986d9b42d3c56.bindPopup(popup_695e963c0d45046ecd496bb5c57b2966)
+        ;
+
+        
+    
+    
+            var circle_marker_da1db3ac87eebe49eb13333d5f69da1f = L.circleMarker(
+                [4.54551, 102.97767],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_ab55babbe2a4a1f1103685da4d5d3cc8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c86d5f3019c74319203581586a86e1ef = $(`<div id="html_c86d5f3019c74319203581586a86e1ef" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ab55babbe2a4a1f1103685da4d5d3cc8.setContent(html_c86d5f3019c74319203581586a86e1ef);
+            
+        
+
+        circle_marker_da1db3ac87eebe49eb13333d5f69da1f.bindPopup(popup_ab55babbe2a4a1f1103685da4d5d3cc8)
+        ;
+
+        
+    
+    
+            var circle_marker_3d3c9f7efb975ad7132cc7d69af1b96e = L.circleMarker(
+                [4.65661, 102.99923],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_f77361325259b7ee83ecff80445c88d4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0e92f9e1e9180c884de69ae7fd34b8cd = $(`<div id="html_0e92f9e1e9180c884de69ae7fd34b8cd" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f77361325259b7ee83ecff80445c88d4.setContent(html_0e92f9e1e9180c884de69ae7fd34b8cd);
+            
+        
+
+        circle_marker_3d3c9f7efb975ad7132cc7d69af1b96e.bindPopup(popup_f77361325259b7ee83ecff80445c88d4)
+        ;
+
+        
+    
+    
+            var circle_marker_33e0c31e45e59c815420f2e53d75f123 = L.circleMarker(
+                [4.61029, 103.15871],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_d9dbbf9a8b73f9722047e98f029d15b0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_298dad368cc891d6b039616ee8f86031 = $(`<div id="html_298dad368cc891d6b039616ee8f86031" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d9dbbf9a8b73f9722047e98f029d15b0.setContent(html_298dad368cc891d6b039616ee8f86031);
+            
+        
+
+        circle_marker_33e0c31e45e59c815420f2e53d75f123.bindPopup(popup_d9dbbf9a8b73f9722047e98f029d15b0)
+        ;
+
+        
+    
+    
+            var circle_marker_88b3606d8462819d8ca78c6f91ba4daf = L.circleMarker(
+                [4.63472, 103.19912],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_fa98095d8bcfac123d665f9c3d05aba3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1d2582e5554b6fe8895426c69a98a776 = $(`<div id="html_1d2582e5554b6fe8895426c69a98a776" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_fa98095d8bcfac123d665f9c3d05aba3.setContent(html_1d2582e5554b6fe8895426c69a98a776);
+            
+        
+
+        circle_marker_88b3606d8462819d8ca78c6f91ba4daf.bindPopup(popup_fa98095d8bcfac123d665f9c3d05aba3)
+        ;
+
+        
+    
+    
+            var circle_marker_c38525a807846dce6f95059046e0c6de = L.circleMarker(
+                [4.63415, 103.200553],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_14efc945514faf203cc682e11c0f1f99 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_afe8df09ec6f3e76384cbf371269f0fc = $(`<div id="html_afe8df09ec6f3e76384cbf371269f0fc" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_14efc945514faf203cc682e11c0f1f99.setContent(html_afe8df09ec6f3e76384cbf371269f0fc);
+            
+        
+
+        circle_marker_c38525a807846dce6f95059046e0c6de.bindPopup(popup_14efc945514faf203cc682e11c0f1f99)
+        ;
+
+        
+    
+    
+            var circle_marker_a34f22b312196c4b67ae01330862950a = L.circleMarker(
+                [4.68074, 103.18549],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_96a225460d1925eaae06f4dbf2d9550e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e18100e17a55d6216d707b647a10ccae = $(`<div id="html_e18100e17a55d6216d707b647a10ccae" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_96a225460d1925eaae06f4dbf2d9550e.setContent(html_e18100e17a55d6216d707b647a10ccae);
+            
+        
+
+        circle_marker_a34f22b312196c4b67ae01330862950a.bindPopup(popup_96a225460d1925eaae06f4dbf2d9550e)
+        ;
+
+        
+    
+    
+            var circle_marker_803e9d0c44c3f33dec1728d6624ff8cc = L.circleMarker(
+                [4.92295, 102.96926],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_37d030a5c2d355711c2e5c72aed62ca6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0b46973dbb05f9315de220cb315f7114 = $(`<div id="html_0b46973dbb05f9315de220cb315f7114" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_37d030a5c2d355711c2e5c72aed62ca6.setContent(html_0b46973dbb05f9315de220cb315f7114);
+            
+        
+
+        circle_marker_803e9d0c44c3f33dec1728d6624ff8cc.bindPopup(popup_37d030a5c2d355711c2e5c72aed62ca6)
+        ;
+
+        
+    
+    
+            var circle_marker_9764a12068e21c46efe31bd73a4f8de6 = L.circleMarker(
+                [4.92007, 102.97357],
+                {"bubblingMouseEvents": true, "color": "brown", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_b7c40f5f2cbaa17b20e8b8a16c4f89cd);
+        
+    
+        var popup_71f26f1c30d5215004ea3e2ed1fe49fc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d3a44f838f164710a654e42a054e3d5d = $(`<div id="html_d3a44f838f164710a654e42a054e3d5d" style="width: 100.0%; height: 100.0%;">Genus: Curtos<br>Species: costipennis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_71f26f1c30d5215004ea3e2ed1fe49fc.setContent(html_d3a44f838f164710a654e42a054e3d5d);
+            
+        
+
+        circle_marker_9764a12068e21c46efe31bd73a4f8de6.bindPopup(popup_71f26f1c30d5215004ea3e2ed1fe49fc)
+        ;
+
+        
+    
+</script>
+</html>

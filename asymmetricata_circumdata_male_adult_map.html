@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ceb07852918c4ad765d33b07f0c9d54 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4ceb07852918c4ad765d33b07f0c9d54" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ceb07852918c4ad765d33b07f0c9d54 = L.map(
+                "map_4ceb07852918c4ad765d33b07f0c9d54",
+                {
+                    center: [5.928334117647059, 100.86861176470588],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_df587ec0e3aaee8fea24e4b09d7f78d5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_df587ec0e3aaee8fea24e4b09d7f78d5.addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+            var circle_marker_45142a95854df401c518e9aeb6e6031f = L.circleMarker(
+                [4.9918, 101.96514],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_21cad8fe388f2395b90801fa078b5523 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9eac3edd10dc89b5647e5092bbdda870 = $(`<div id="html_9eac3edd10dc89b5647e5092bbdda870" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_21cad8fe388f2395b90801fa078b5523.setContent(html_9eac3edd10dc89b5647e5092bbdda870);
+            
+        
+
+        circle_marker_45142a95854df401c518e9aeb6e6031f.bindPopup(popup_21cad8fe388f2395b90801fa078b5523)
+        ;
+
+        
+    
+    
+            var circle_marker_8442c2da1793c009242f6e06c52124ca = L.circleMarker(
+                [4.99171, 101.96509],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_95b73397fb30a87aef2e0797c8a1a73b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_337cc70cb2d6755abcf3ce46a5839d3c = $(`<div id="html_337cc70cb2d6755abcf3ce46a5839d3c" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_95b73397fb30a87aef2e0797c8a1a73b.setContent(html_337cc70cb2d6755abcf3ce46a5839d3c);
+            
+        
+
+        circle_marker_8442c2da1793c009242f6e06c52124ca.bindPopup(popup_95b73397fb30a87aef2e0797c8a1a73b)
+        ;
+
+        
+    
+    
+            var circle_marker_e413a4de4198367631e9da5f21cd6226 = L.circleMarker(
+                [4.99179, 101.96514],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_a6843ece87ca0963050222ccef9bd65c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_87b17499abb92e99ddbe5944ea089c59 = $(`<div id="html_87b17499abb92e99ddbe5944ea089c59" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a6843ece87ca0963050222ccef9bd65c.setContent(html_87b17499abb92e99ddbe5944ea089c59);
+            
+        
+
+        circle_marker_e413a4de4198367631e9da5f21cd6226.bindPopup(popup_a6843ece87ca0963050222ccef9bd65c)
+        ;
+
+        
+    
+    
+            var circle_marker_5d8255dc4d6c29c58d18897e11e6bbd9 = L.circleMarker(
+                [4.99179, 101.96514],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_4f90129b91dfe5bbd7ffe593cd44a0a3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c62467b5cf9a00e3721181a768774896 = $(`<div id="html_c62467b5cf9a00e3721181a768774896" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4f90129b91dfe5bbd7ffe593cd44a0a3.setContent(html_c62467b5cf9a00e3721181a768774896);
+            
+        
+
+        circle_marker_5d8255dc4d6c29c58d18897e11e6bbd9.bindPopup(popup_4f90129b91dfe5bbd7ffe593cd44a0a3)
+        ;
+
+        
+    
+    
+            var circle_marker_434e79ea426781a76c079bd02bb473b8 = L.circleMarker(
+                [4.99173, 101.96505],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_b26f4cbb6e730eb5a50156c6862cf483 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_da542f130beea4b0c59b15790fbbf11c = $(`<div id="html_da542f130beea4b0c59b15790fbbf11c" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_b26f4cbb6e730eb5a50156c6862cf483.setContent(html_da542f130beea4b0c59b15790fbbf11c);
+            
+        
+
+        circle_marker_434e79ea426781a76c079bd02bb473b8.bindPopup(popup_b26f4cbb6e730eb5a50156c6862cf483)
+        ;
+
+        
+    
+    
+            var circle_marker_b7d4bd71358caebea671f9c2f5e6c981 = L.circleMarker(
+                [4.99173, 101.96505],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_c49070e3be8f5bf35d561eb81157e13a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_64322dfdf5f31da103a5dbff2696717a = $(`<div id="html_64322dfdf5f31da103a5dbff2696717a" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c49070e3be8f5bf35d561eb81157e13a.setContent(html_64322dfdf5f31da103a5dbff2696717a);
+            
+        
+
+        circle_marker_b7d4bd71358caebea671f9c2f5e6c981.bindPopup(popup_c49070e3be8f5bf35d561eb81157e13a)
+        ;
+
+        
+    
+    
+            var circle_marker_3ec2d5fceb7df3aa5e414f6601f82ded = L.circleMarker(
+                [6.64597, 100.20096],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_8d269c50f8a883583aa87461a7f4bd4d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c8c7b12f4a3c8d58a5a247d632989938 = $(`<div id="html_c8c7b12f4a3c8d58a5a247d632989938" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8d269c50f8a883583aa87461a7f4bd4d.setContent(html_c8c7b12f4a3c8d58a5a247d632989938);
+            
+        
+
+        circle_marker_3ec2d5fceb7df3aa5e414f6601f82ded.bindPopup(popup_8d269c50f8a883583aa87461a7f4bd4d)
+        ;
+
+        
+    
+    
+            var circle_marker_bbc04263d3f6735cbf7a0901fb12bdfd = L.circleMarker(
+                [6.64594, 100.20104],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_45634d346ad951fb530015fd027f0435 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8104bd3b997a38dea1c09ba992f0ce7b = $(`<div id="html_8104bd3b997a38dea1c09ba992f0ce7b" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_45634d346ad951fb530015fd027f0435.setContent(html_8104bd3b997a38dea1c09ba992f0ce7b);
+            
+        
+
+        circle_marker_bbc04263d3f6735cbf7a0901fb12bdfd.bindPopup(popup_45634d346ad951fb530015fd027f0435)
+        ;
+
+        
+    
+    
+            var circle_marker_aa4eb883ab828426ec15bab2f301f8f4 = L.circleMarker(
+                [6.64594, 100.20104],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_53a691a74f6fd8fa887dc15e488c5e3e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54d34dd1071dc3dbf495b5528a1e14ad = $(`<div id="html_54d34dd1071dc3dbf495b5528a1e14ad" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_53a691a74f6fd8fa887dc15e488c5e3e.setContent(html_54d34dd1071dc3dbf495b5528a1e14ad);
+            
+        
+
+        circle_marker_aa4eb883ab828426ec15bab2f301f8f4.bindPopup(popup_53a691a74f6fd8fa887dc15e488c5e3e)
+        ;
+
+        
+    
+    
+            var circle_marker_288da491d2c5159c5ef10666346f8af1 = L.circleMarker(
+                [6.6458, 100.20066],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_ce4fdea277f42de2d0c0170101ceb39b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fe67a18e99386474c4a94955ab76d32c = $(`<div id="html_fe67a18e99386474c4a94955ab76d32c" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ce4fdea277f42de2d0c0170101ceb39b.setContent(html_fe67a18e99386474c4a94955ab76d32c);
+            
+        
+
+        circle_marker_288da491d2c5159c5ef10666346f8af1.bindPopup(popup_ce4fdea277f42de2d0c0170101ceb39b)
+        ;
+
+        
+    
+    
+            var circle_marker_dc89c4ad3167cc4e18d7eacabe17f9ae = L.circleMarker(
+                [6.64515, 100.20103],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_059f07e14da27a3573fd41367fa2bbc1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7f1b91c181732f854f7ede1d0715c7fe = $(`<div id="html_7f1b91c181732f854f7ede1d0715c7fe" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_059f07e14da27a3573fd41367fa2bbc1.setContent(html_7f1b91c181732f854f7ede1d0715c7fe);
+            
+        
+
+        circle_marker_dc89c4ad3167cc4e18d7eacabe17f9ae.bindPopup(popup_059f07e14da27a3573fd41367fa2bbc1)
+        ;
+
+        
+    
+    
+            var circle_marker_dd3fb8f8698fb0965f9f7cedb3767f49 = L.circleMarker(
+                [6.64575, 100.2005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_db84456a64b7651e01eeff937fe338e9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e6dd8fb555b5ae7971811a92b8ad060f = $(`<div id="html_e6dd8fb555b5ae7971811a92b8ad060f" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_db84456a64b7651e01eeff937fe338e9.setContent(html_e6dd8fb555b5ae7971811a92b8ad060f);
+            
+        
+
+        circle_marker_dd3fb8f8698fb0965f9f7cedb3767f49.bindPopup(popup_db84456a64b7651e01eeff937fe338e9)
+        ;
+
+        
+    
+    
+            var circle_marker_bc1c09ee82e7ee1ea02c15af03e485f5 = L.circleMarker(
+                [6.64575, 100.2005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_9940b9c53da480b73f2260921273cb5e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f2ba8369ee422d115dd43e180a8d494a = $(`<div id="html_f2ba8369ee422d115dd43e180a8d494a" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9940b9c53da480b73f2260921273cb5e.setContent(html_f2ba8369ee422d115dd43e180a8d494a);
+            
+        
+
+        circle_marker_bc1c09ee82e7ee1ea02c15af03e485f5.bindPopup(popup_9940b9c53da480b73f2260921273cb5e)
+        ;
+
+        
+    
+    
+            var circle_marker_8909b35fbb9bc553fad12e2fd0549014 = L.circleMarker(
+                [6.64575, 100.2005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_8f0aa99c5107dc30c5111857ff151930 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_00c3a1ad0e64204d84ff16b9450376cc = $(`<div id="html_00c3a1ad0e64204d84ff16b9450376cc" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8f0aa99c5107dc30c5111857ff151930.setContent(html_00c3a1ad0e64204d84ff16b9450376cc);
+            
+        
+
+        circle_marker_8909b35fbb9bc553fad12e2fd0549014.bindPopup(popup_8f0aa99c5107dc30c5111857ff151930)
+        ;
+
+        
+    
+    
+            var circle_marker_e5e45c72b692333bdd7f05a910ad5904 = L.circleMarker(
+                [6.64575, 100.2005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_e8617eeb54a77e9d03e11581aab6bab3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_22f1cb19cda7ed5d5182b34d74bc4e1c = $(`<div id="html_22f1cb19cda7ed5d5182b34d74bc4e1c" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e8617eeb54a77e9d03e11581aab6bab3.setContent(html_22f1cb19cda7ed5d5182b34d74bc4e1c);
+            
+        
+
+        circle_marker_e5e45c72b692333bdd7f05a910ad5904.bindPopup(popup_e8617eeb54a77e9d03e11581aab6bab3)
+        ;
+
+        
+    
+    
+            var circle_marker_54a2ac4ed27b076df15899818151a3c0 = L.circleMarker(
+                [6.64575, 100.2005],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_79334720652be41dd326c851c67bdc4b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_478969e1cb1d0c8b7b35adb103aba87d = $(`<div id="html_478969e1cb1d0c8b7b35adb103aba87d" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_79334720652be41dd326c851c67bdc4b.setContent(html_478969e1cb1d0c8b7b35adb103aba87d);
+            
+        
+
+        circle_marker_54a2ac4ed27b076df15899818151a3c0.bindPopup(popup_79334720652be41dd326c851c67bdc4b)
+        ;
+
+        
+    
+    
+            var circle_marker_2b9421036351909667becd43499884d0 = L.circleMarker(
+                [4.37358, 100.96856],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_4ceb07852918c4ad765d33b07f0c9d54);
+        
+    
+        var popup_15cf722fe32e3c814a66e1912d50ba8d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b4e5983ad1ae74e0af86c4fb967539c4 = $(`<div id="html_b4e5983ad1ae74e0af86c4fb967539c4" style="width: 100.0%; height: 100.0%;">Genus: Asymmetricata<br>Species: circumdata<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_15cf722fe32e3c814a66e1912d50ba8d.setContent(html_b4e5983ad1ae74e0af86c4fb967539c4);
+            
+        
+
+        circle_marker_2b9421036351909667becd43499884d0.bindPopup(popup_15cf722fe32e3c814a66e1912d50ba8d)
+        ;
+
+        
+    
+</script>
+</html>

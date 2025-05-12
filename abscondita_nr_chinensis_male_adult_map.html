@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a28ace6e513050e5882329654ae257af {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a28ace6e513050e5882329654ae257af" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a28ace6e513050e5882329654ae257af = L.map(
+                "map_a28ace6e513050e5882329654ae257af",
+                {
+                    center: [4.5882689999999995, 101.42478550000001],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ce6d4a4716bcb600a1323c199894e01 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3ce6d4a4716bcb600a1323c199894e01.addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+            var circle_marker_30c215e32cda2838ff2257237048a3bd = L.circleMarker(
+                [4.42161, 101.20024],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_e5d6ff262edbc24e5d05e618aff4b90b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0270b9a5f04925c0648c17b4d4d70963 = $(`<div id="html_0270b9a5f04925c0648c17b4d4d70963" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e5d6ff262edbc24e5d05e618aff4b90b.setContent(html_0270b9a5f04925c0648c17b4d4d70963);
+            
+        
+
+        circle_marker_30c215e32cda2838ff2257237048a3bd.bindPopup(popup_e5d6ff262edbc24e5d05e618aff4b90b)
+        ;
+
+        
+    
+    
+            var circle_marker_ecde310358200ba6bc037ae311be7c44 = L.circleMarker(
+                [4.41507, 101.1876],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_9a20498e03bf985486cf7f3bcf77da72 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5534ae596cc5586319cbe15ee0e0e218 = $(`<div id="html_5534ae596cc5586319cbe15ee0e0e218" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9a20498e03bf985486cf7f3bcf77da72.setContent(html_5534ae596cc5586319cbe15ee0e0e218);
+            
+        
+
+        circle_marker_ecde310358200ba6bc037ae311be7c44.bindPopup(popup_9a20498e03bf985486cf7f3bcf77da72)
+        ;
+
+        
+    
+    
+            var circle_marker_be31281ef5ec2bfefe3e4e0568f6e260 = L.circleMarker(
+                [4.41253, 101.20015],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_dbff6e4b72aae36d82f5cefcacbca2c7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6df48714a192e7bea1bbc21d9e1ff052 = $(`<div id="html_6df48714a192e7bea1bbc21d9e1ff052" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_dbff6e4b72aae36d82f5cefcacbca2c7.setContent(html_6df48714a192e7bea1bbc21d9e1ff052);
+            
+        
+
+        circle_marker_be31281ef5ec2bfefe3e4e0568f6e260.bindPopup(popup_dbff6e4b72aae36d82f5cefcacbca2c7)
+        ;
+
+        
+    
+    
+            var circle_marker_7a349b0a13775e77e8421462d977309e = L.circleMarker(
+                [4.40427, 101.20768],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_afdcdff40a2ed2bbe8fbe61a192b4a25 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_01cf9475c721778a08be0f842e84c812 = $(`<div id="html_01cf9475c721778a08be0f842e84c812" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_afdcdff40a2ed2bbe8fbe61a192b4a25.setContent(html_01cf9475c721778a08be0f842e84c812);
+            
+        
+
+        circle_marker_7a349b0a13775e77e8421462d977309e.bindPopup(popup_afdcdff40a2ed2bbe8fbe61a192b4a25)
+        ;
+
+        
+    
+    
+            var circle_marker_a902a9711266c6508944b62eff959093 = L.circleMarker(
+                [4.41293, 101.19978],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_8729bc9f25233aa8e441300514b7f844 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_53c735d90b3debf0f66ec5ec70793a12 = $(`<div id="html_53c735d90b3debf0f66ec5ec70793a12" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8729bc9f25233aa8e441300514b7f844.setContent(html_53c735d90b3debf0f66ec5ec70793a12);
+            
+        
+
+        circle_marker_a902a9711266c6508944b62eff959093.bindPopup(popup_8729bc9f25233aa8e441300514b7f844)
+        ;
+
+        
+    
+    
+            var circle_marker_bae87f53c91685c94dec89075007f0f9 = L.circleMarker(
+                [4.41387, 101.19903],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_5a34aea9797d71dcd70ad81f11315d82 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9c42cf64fad1f63554bc92caa6fc2c9c = $(`<div id="html_9c42cf64fad1f63554bc92caa6fc2c9c" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_5a34aea9797d71dcd70ad81f11315d82.setContent(html_9c42cf64fad1f63554bc92caa6fc2c9c);
+            
+        
+
+        circle_marker_bae87f53c91685c94dec89075007f0f9.bindPopup(popup_5a34aea9797d71dcd70ad81f11315d82)
+        ;
+
+        
+    
+    
+            var circle_marker_a9f09e79ce1259e2dc446e161a5c7cb8 = L.circleMarker(
+                [4.4158, 101.1877],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_431992012f87880f3cefdd16f4746889 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f0de512dfdceba827bd596db552369df = $(`<div id="html_f0de512dfdceba827bd596db552369df" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_431992012f87880f3cefdd16f4746889.setContent(html_f0de512dfdceba827bd596db552369df);
+            
+        
+
+        circle_marker_a9f09e79ce1259e2dc446e161a5c7cb8.bindPopup(popup_431992012f87880f3cefdd16f4746889)
+        ;
+
+        
+    
+    
+            var circle_marker_d628c18fe9be390e734e0a982dd31a3a = L.circleMarker(
+                [4.41559, 101.18793],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_2b283c2b1dc66ea6bbdf4db8cf8856fd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0864d21989977b5038c7652c35d66301 = $(`<div id="html_0864d21989977b5038c7652c35d66301" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2b283c2b1dc66ea6bbdf4db8cf8856fd.setContent(html_0864d21989977b5038c7652c35d66301);
+            
+        
+
+        circle_marker_d628c18fe9be390e734e0a982dd31a3a.bindPopup(popup_2b283c2b1dc66ea6bbdf4db8cf8856fd)
+        ;
+
+        
+    
+    
+            var circle_marker_6ce4959519c10dd7f2c8676b8f34e4e1 = L.circleMarker(
+                [4.41494, 101.18789],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_8924e28aeaa3059e7dc40e3acd079d23 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e472c5c12f2803793ce009cd0d3c199e = $(`<div id="html_e472c5c12f2803793ce009cd0d3c199e" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8924e28aeaa3059e7dc40e3acd079d23.setContent(html_e472c5c12f2803793ce009cd0d3c199e);
+            
+        
+
+        circle_marker_6ce4959519c10dd7f2c8676b8f34e4e1.bindPopup(popup_8924e28aeaa3059e7dc40e3acd079d23)
+        ;
+
+        
+    
+    
+            var circle_marker_2e42def3054325db2593dad722091f35 = L.circleMarker(
+                [4.41425, 101.18705],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_bf5fd3f957d95d80cd4574bff4286332 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a21040d19073bc7e18745def1259cb00 = $(`<div id="html_a21040d19073bc7e18745def1259cb00" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bf5fd3f957d95d80cd4574bff4286332.setContent(html_a21040d19073bc7e18745def1259cb00);
+            
+        
+
+        circle_marker_2e42def3054325db2593dad722091f35.bindPopup(popup_bf5fd3f957d95d80cd4574bff4286332)
+        ;
+
+        
+    
+    
+            var circle_marker_2a536c31cf784f66b223e35337abd4fb = L.circleMarker(
+                [4.41423, 101.18681],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_3bfb574838fe44055a8d6b6394fa8fc2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_22841401a96051fd44bfb39d4116bf9b = $(`<div id="html_22841401a96051fd44bfb39d4116bf9b" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3bfb574838fe44055a8d6b6394fa8fc2.setContent(html_22841401a96051fd44bfb39d4116bf9b);
+            
+        
+
+        circle_marker_2a536c31cf784f66b223e35337abd4fb.bindPopup(popup_3bfb574838fe44055a8d6b6394fa8fc2)
+        ;
+
+        
+    
+    
+            var circle_marker_5a8438f8b3f43e8f8c5d9e209fc4366d = L.circleMarker(
+                [4.4253, 101.18665],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_e69462e73f8a3317d26b0bc4c46634bd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3cdaba979a82eee2d1426e2db1437771 = $(`<div id="html_3cdaba979a82eee2d1426e2db1437771" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e69462e73f8a3317d26b0bc4c46634bd.setContent(html_3cdaba979a82eee2d1426e2db1437771);
+            
+        
+
+        circle_marker_5a8438f8b3f43e8f8c5d9e209fc4366d.bindPopup(popup_e69462e73f8a3317d26b0bc4c46634bd)
+        ;
+
+        
+    
+    
+            var circle_marker_33d3224e1316c1b10ee016f2156e9b1d = L.circleMarker(
+                [4.41257, 101.19989],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_4d54f10d227b00079712e07140f276a8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ca9fbef3e1066232b472a8a4c1dc07fe = $(`<div id="html_ca9fbef3e1066232b472a8a4c1dc07fe" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4d54f10d227b00079712e07140f276a8.setContent(html_ca9fbef3e1066232b472a8a4c1dc07fe);
+            
+        
+
+        circle_marker_33d3224e1316c1b10ee016f2156e9b1d.bindPopup(popup_4d54f10d227b00079712e07140f276a8)
+        ;
+
+        
+    
+    
+            var circle_marker_1c5a9d56829a05eb1eafa808b6a44842 = L.circleMarker(
+                [4.41559, 101.1879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_279b70990a04a208b9bb54db6897b928 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a0b97a4ffbfefeca897ec94ed3dc323f = $(`<div id="html_a0b97a4ffbfefeca897ec94ed3dc323f" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_279b70990a04a208b9bb54db6897b928.setContent(html_a0b97a4ffbfefeca897ec94ed3dc323f);
+            
+        
+
+        circle_marker_1c5a9d56829a05eb1eafa808b6a44842.bindPopup(popup_279b70990a04a208b9bb54db6897b928)
+        ;
+
+        
+    
+    
+            var circle_marker_ab316110cfd97ddea1f03a5ae0b4b241 = L.circleMarker(
+                [4.99339, 101.96545],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_16a8b3f66b756d079be2b513ab49a227 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7fb511dba07e412c9f18dad392ddf9e7 = $(`<div id="html_7fb511dba07e412c9f18dad392ddf9e7" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_16a8b3f66b756d079be2b513ab49a227.setContent(html_7fb511dba07e412c9f18dad392ddf9e7);
+            
+        
+
+        circle_marker_ab316110cfd97ddea1f03a5ae0b4b241.bindPopup(popup_16a8b3f66b756d079be2b513ab49a227)
+        ;
+
+        
+    
+    
+            var circle_marker_3888ebb6d28d61128ca13234be7c09b9 = L.circleMarker(
+                [4.993, 101.96501],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_dc8bcfbc656acd835395f01c4bfe5726 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8b93630aeb03e5edf15a196d1a6b979d = $(`<div id="html_8b93630aeb03e5edf15a196d1a6b979d" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_dc8bcfbc656acd835395f01c4bfe5726.setContent(html_8b93630aeb03e5edf15a196d1a6b979d);
+            
+        
+
+        circle_marker_3888ebb6d28d61128ca13234be7c09b9.bindPopup(popup_dc8bcfbc656acd835395f01c4bfe5726)
+        ;
+
+        
+    
+    
+            var circle_marker_866eb2f0273c41293598076bf65fab7f = L.circleMarker(
+                [4.99349, 101.96579],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_a11e0f9a434aafa208c4875d18710679 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_58231aee19eeb3947ff2077c18311a1a = $(`<div id="html_58231aee19eeb3947ff2077c18311a1a" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a11e0f9a434aafa208c4875d18710679.setContent(html_58231aee19eeb3947ff2077c18311a1a);
+            
+        
+
+        circle_marker_866eb2f0273c41293598076bf65fab7f.bindPopup(popup_a11e0f9a434aafa208c4875d18710679)
+        ;
+
+        
+    
+    
+            var circle_marker_e6ad9f96c95888d564bd0f0470f8068e = L.circleMarker(
+                [4.99254, 101.96522],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_a42b75255a85656c713c4cf79eb0a803 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4cf93a672da766dfdc06fb9d1c2d587c = $(`<div id="html_4cf93a672da766dfdc06fb9d1c2d587c" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a42b75255a85656c713c4cf79eb0a803.setContent(html_4cf93a672da766dfdc06fb9d1c2d587c);
+            
+        
+
+        circle_marker_e6ad9f96c95888d564bd0f0470f8068e.bindPopup(popup_a42b75255a85656c713c4cf79eb0a803)
+        ;
+
+        
+    
+    
+            var circle_marker_3a3abbe0b9d7496cc0e5a811eba8d6b0 = L.circleMarker(
+                [4.99153, 101.96306],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_9f0da302833eb8a1c24018064b0d075a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9b78b2381e101962c96e8e66ba494787 = $(`<div id="html_9b78b2381e101962c96e8e66ba494787" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9f0da302833eb8a1c24018064b0d075a.setContent(html_9b78b2381e101962c96e8e66ba494787);
+            
+        
+
+        circle_marker_3a3abbe0b9d7496cc0e5a811eba8d6b0.bindPopup(popup_9f0da302833eb8a1c24018064b0d075a)
+        ;
+
+        
+    
+    
+            var circle_marker_3d3998ecf3d63220f209ab380df28449 = L.circleMarker(
+                [4.99288, 101.96488],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_a28ace6e513050e5882329654ae257af);
+        
+    
+        var popup_2dac8da15e5c07c5f9c86ec93f5484e8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e177355390ebfde5e2d9c81cd46fcf98 = $(`<div id="html_e177355390ebfde5e2d9c81cd46fcf98" style="width: 100.0%; height: 100.0%;">Genus: Abscondita<br>Species: nr. chinensis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2dac8da15e5c07c5f9c86ec93f5484e8.setContent(html_e177355390ebfde5e2d9c81cd46fcf98);
+            
+        
+
+        circle_marker_3d3998ecf3d63220f209ab380df28449.bindPopup(popup_2dac8da15e5c07c5f9c86ec93f5484e8)
+        ;
+
+        
+    
+</script>
+</html>

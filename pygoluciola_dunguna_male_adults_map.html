@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_96391d21dbee3552dcff2681e274dd47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_96391d21dbee3552dcff2681e274dd47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_96391d21dbee3552dcff2681e274dd47 = L.map(
+                "map_96391d21dbee3552dcff2681e274dd47",
+                {
+                    center: [4.70194692, 102.85145044000001],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7e009d63ebe3a2253b6f30837177eb4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_b7e009d63ebe3a2253b6f30837177eb4.addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+            var circle_marker_bcfb15aa580169db22942931726e9ffb = L.circleMarker(
+                [4.41383, 101.199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_77e4500fb60023d53f892fb7f8e520fe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d3257531d9e9b428016321991d19320e = $(`<div id="html_d3257531d9e9b428016321991d19320e" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_77e4500fb60023d53f892fb7f8e520fe.setContent(html_d3257531d9e9b428016321991d19320e);
+            
+        
+
+        circle_marker_bcfb15aa580169db22942931726e9ffb.bindPopup(popup_77e4500fb60023d53f892fb7f8e520fe)
+        ;
+
+        
+    
+    
+            var circle_marker_c3e015368f8d3ba6be386412f21870f0 = L.circleMarker(
+                [4.41383, 101.199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_162d7249446c9be5c5c849e6d8a6b718 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_96766b49c76c6797fa0d440c2745e537 = $(`<div id="html_96766b49c76c6797fa0d440c2745e537" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_162d7249446c9be5c5c849e6d8a6b718.setContent(html_96766b49c76c6797fa0d440c2745e537);
+            
+        
+
+        circle_marker_c3e015368f8d3ba6be386412f21870f0.bindPopup(popup_162d7249446c9be5c5c849e6d8a6b718)
+        ;
+
+        
+    
+    
+            var circle_marker_1bc9f4bb3d1415d333a62a2c2bc4f6d6 = L.circleMarker(
+                [3.40522, 101.65566],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_50b344049a4d2e8724038d780e8eae95 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_eb12ee72d1525bab74204fe9fb72fc5b = $(`<div id="html_eb12ee72d1525bab74204fe9fb72fc5b" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_50b344049a4d2e8724038d780e8eae95.setContent(html_eb12ee72d1525bab74204fe9fb72fc5b);
+            
+        
+
+        circle_marker_1bc9f4bb3d1415d333a62a2c2bc4f6d6.bindPopup(popup_50b344049a4d2e8724038d780e8eae95)
+        ;
+
+        
+    
+    
+            var circle_marker_eb1e7bffa5095f748f28b96b87ffd11d = L.circleMarker(
+                [4.70009, 103.17388],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_6ee703a3c887627f9623da73d2fe3d49 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2b046ed9fc6d9a22d901b3bb62db8014 = $(`<div id="html_2b046ed9fc6d9a22d901b3bb62db8014" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6ee703a3c887627f9623da73d2fe3d49.setContent(html_2b046ed9fc6d9a22d901b3bb62db8014);
+            
+        
+
+        circle_marker_eb1e7bffa5095f748f28b96b87ffd11d.bindPopup(popup_6ee703a3c887627f9623da73d2fe3d49)
+        ;
+
+        
+    
+    
+            var circle_marker_f77eb9fe986fd423c762755bddb833b9 = L.circleMarker(
+                [4.693225, 103.167175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_bce75d312712da752b3552f4f12b105e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_75ed8b73faadb79ea634eb951404d7fe = $(`<div id="html_75ed8b73faadb79ea634eb951404d7fe" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bce75d312712da752b3552f4f12b105e.setContent(html_75ed8b73faadb79ea634eb951404d7fe);
+            
+        
+
+        circle_marker_f77eb9fe986fd423c762755bddb833b9.bindPopup(popup_bce75d312712da752b3552f4f12b105e)
+        ;
+
+        
+    
+    
+            var circle_marker_4844621f0af0f4d9753310d3abb5e4d2 = L.circleMarker(
+                [4.548261, 102.979878],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_72ba8d63262e1134f90073616466a7e0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_04c26365548c92b0d569055b093d8533 = $(`<div id="html_04c26365548c92b0d569055b093d8533" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_72ba8d63262e1134f90073616466a7e0.setContent(html_04c26365548c92b0d569055b093d8533);
+            
+        
+
+        circle_marker_4844621f0af0f4d9753310d3abb5e4d2.bindPopup(popup_72ba8d63262e1134f90073616466a7e0)
+        ;
+
+        
+    
+    
+            var circle_marker_0f24fd29809a6825ea3dad87477e6fd0 = L.circleMarker(
+                [4.548261, 102.979878],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_c6ea7b99ba659b85cb9003955ac7f2bc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bbfa6da5cf1a8088a613a97974c0320a = $(`<div id="html_bbfa6da5cf1a8088a613a97974c0320a" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c6ea7b99ba659b85cb9003955ac7f2bc.setContent(html_bbfa6da5cf1a8088a613a97974c0320a);
+            
+        
+
+        circle_marker_0f24fd29809a6825ea3dad87477e6fd0.bindPopup(popup_c6ea7b99ba659b85cb9003955ac7f2bc)
+        ;
+
+        
+    
+    
+            var circle_marker_1afe5e565b099807bfe05a0ebb8e1957 = L.circleMarker(
+                [4.610939, 103.158919],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_cd97aea7380b8163a0b46ce9b7e8fca6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1f229038c71dc41802b643416f0f7d25 = $(`<div id="html_1f229038c71dc41802b643416f0f7d25" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_cd97aea7380b8163a0b46ce9b7e8fca6.setContent(html_1f229038c71dc41802b643416f0f7d25);
+            
+        
+
+        circle_marker_1afe5e565b099807bfe05a0ebb8e1957.bindPopup(popup_cd97aea7380b8163a0b46ce9b7e8fca6)
+        ;
+
+        
+    
+    
+            var circle_marker_4f646d51092bc3978707dd05f80ddac8 = L.circleMarker(
+                [4.858047, 103.009394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_59f8933c61c089b635894cdfbaac58ff = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_891001acc0e214ff412c7b9bd19c32f0 = $(`<div id="html_891001acc0e214ff412c7b9bd19c32f0" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_59f8933c61c089b635894cdfbaac58ff.setContent(html_891001acc0e214ff412c7b9bd19c32f0);
+            
+        
+
+        circle_marker_4f646d51092bc3978707dd05f80ddac8.bindPopup(popup_59f8933c61c089b635894cdfbaac58ff)
+        ;
+
+        
+    
+    
+            var circle_marker_a484678a8cc1b1e5f93b374f291ea905 = L.circleMarker(
+                [4.858047, 103.009394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_0e78b8f29624306b89acc48f311c81bf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_521d12f66a184b7b319378906825ecb2 = $(`<div id="html_521d12f66a184b7b319378906825ecb2" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_0e78b8f29624306b89acc48f311c81bf.setContent(html_521d12f66a184b7b319378906825ecb2);
+            
+        
+
+        circle_marker_a484678a8cc1b1e5f93b374f291ea905.bindPopup(popup_0e78b8f29624306b89acc48f311c81bf)
+        ;
+
+        
+    
+    
+            var circle_marker_6b4aafc957fa605d9ac11f56217075dc = L.circleMarker(
+                [4.858047, 103.009394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_b078fa151754d7a91204bf26bb76e869 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f4105be6fab52a6884e8faabff9baec4 = $(`<div id="html_f4105be6fab52a6884e8faabff9baec4" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_b078fa151754d7a91204bf26bb76e869.setContent(html_f4105be6fab52a6884e8faabff9baec4);
+            
+        
+
+        circle_marker_6b4aafc957fa605d9ac11f56217075dc.bindPopup(popup_b078fa151754d7a91204bf26bb76e869)
+        ;
+
+        
+    
+    
+            var circle_marker_a127c0492d8c731604f4312dc6ae2a66 = L.circleMarker(
+                [4.858047, 103.009394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_020295e86f10542f7997fd858ffd5abb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2fe291e0785cfc44cc78464f5facc505 = $(`<div id="html_2fe291e0785cfc44cc78464f5facc505" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_020295e86f10542f7997fd858ffd5abb.setContent(html_2fe291e0785cfc44cc78464f5facc505);
+            
+        
+
+        circle_marker_a127c0492d8c731604f4312dc6ae2a66.bindPopup(popup_020295e86f10542f7997fd858ffd5abb)
+        ;
+
+        
+    
+    
+            var circle_marker_51b79410724625a8b2b706a381ad2e85 = L.circleMarker(
+                [4.858047, 103.009394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_84ed49e46d2f0bea4655b7fcd06314ea = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_17b89516412aa630c50826bf270321cc = $(`<div id="html_17b89516412aa630c50826bf270321cc" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_84ed49e46d2f0bea4655b7fcd06314ea.setContent(html_17b89516412aa630c50826bf270321cc);
+            
+        
+
+        circle_marker_51b79410724625a8b2b706a381ad2e85.bindPopup(popup_84ed49e46d2f0bea4655b7fcd06314ea)
+        ;
+
+        
+    
+    
+            var circle_marker_b0339f6ca021ef05ae4c2f10be773865 = L.circleMarker(
+                [4.63415, 103.200553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_d722fab736ef51a7bef7162a0e48bcb4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_28518b1ace45b06e72cee0f742fb5b4e = $(`<div id="html_28518b1ace45b06e72cee0f742fb5b4e" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d722fab736ef51a7bef7162a0e48bcb4.setContent(html_28518b1ace45b06e72cee0f742fb5b4e);
+            
+        
+
+        circle_marker_b0339f6ca021ef05ae4c2f10be773865.bindPopup(popup_d722fab736ef51a7bef7162a0e48bcb4)
+        ;
+
+        
+    
+    
+            var circle_marker_533391ce4c66d046ea8d9f890d6569ae = L.circleMarker(
+                [4.63524, 103.20103],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_f9201aca72f35ee2d888f11dc26ca52a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9f54a55d18be850ac4612cc1728216e1 = $(`<div id="html_9f54a55d18be850ac4612cc1728216e1" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f9201aca72f35ee2d888f11dc26ca52a.setContent(html_9f54a55d18be850ac4612cc1728216e1);
+            
+        
+
+        circle_marker_533391ce4c66d046ea8d9f890d6569ae.bindPopup(popup_f9201aca72f35ee2d888f11dc26ca52a)
+        ;
+
+        
+    
+    
+            var circle_marker_9582a1a939e559215b5ef155ed8eaefa = L.circleMarker(
+                [4.63415, 103.200553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_feb756dc41bf30df14f15dd08406cc1b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_50f1b6ceebf5f86fcad732be6b2ff041 = $(`<div id="html_50f1b6ceebf5f86fcad732be6b2ff041" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_feb756dc41bf30df14f15dd08406cc1b.setContent(html_50f1b6ceebf5f86fcad732be6b2ff041);
+            
+        
+
+        circle_marker_9582a1a939e559215b5ef155ed8eaefa.bindPopup(popup_feb756dc41bf30df14f15dd08406cc1b)
+        ;
+
+        
+    
+    
+            var circle_marker_98b3bcaa1eba2630c081d3f05f4b2a18 = L.circleMarker(
+                [4.63415, 103.200553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_472d694d8413bf9fead764beb7b990b6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7b2ee8aff41296540fcc028fe3503af8 = $(`<div id="html_7b2ee8aff41296540fcc028fe3503af8" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_472d694d8413bf9fead764beb7b990b6.setContent(html_7b2ee8aff41296540fcc028fe3503af8);
+            
+        
+
+        circle_marker_98b3bcaa1eba2630c081d3f05f4b2a18.bindPopup(popup_472d694d8413bf9fead764beb7b990b6)
+        ;
+
+        
+    
+    
+            var circle_marker_bca8fe10a61819b3cbe096a432b3f119 = L.circleMarker(
+                [4.862742, 103.048636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_20c71c2df15095b9bccb088583ea1074 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8c35c574b06b303deba3094e72c954d0 = $(`<div id="html_8c35c574b06b303deba3094e72c954d0" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_20c71c2df15095b9bccb088583ea1074.setContent(html_8c35c574b06b303deba3094e72c954d0);
+            
+        
+
+        circle_marker_bca8fe10a61819b3cbe096a432b3f119.bindPopup(popup_20c71c2df15095b9bccb088583ea1074)
+        ;
+
+        
+    
+    
+            var circle_marker_92238f4a27eb4ce40c2985d9ad9ea602 = L.circleMarker(
+                [4.862742, 103.048636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_95ad48bd492a422a937f01cfa9402afb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5d0dc9fb2dc62013669ffea38f62003f = $(`<div id="html_5d0dc9fb2dc62013669ffea38f62003f" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_95ad48bd492a422a937f01cfa9402afb.setContent(html_5d0dc9fb2dc62013669ffea38f62003f);
+            
+        
+
+        circle_marker_92238f4a27eb4ce40c2985d9ad9ea602.bindPopup(popup_95ad48bd492a422a937f01cfa9402afb)
+        ;
+
+        
+    
+    
+            var circle_marker_50486cde94126933c48807e1816da126 = L.circleMarker(
+                [4.862742, 103.048636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_4f8e930c52d1c19c2124ddeb7ba8dc1e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f74479c7ff8e770a0f001b686631889f = $(`<div id="html_f74479c7ff8e770a0f001b686631889f" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4f8e930c52d1c19c2124ddeb7ba8dc1e.setContent(html_f74479c7ff8e770a0f001b686631889f);
+            
+        
+
+        circle_marker_50486cde94126933c48807e1816da126.bindPopup(popup_4f8e930c52d1c19c2124ddeb7ba8dc1e)
+        ;
+
+        
+    
+    
+            var circle_marker_01efcf4c4277a9358e79bf0cf7d4b30c = L.circleMarker(
+                [4.862742, 103.048636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_d1f6486315d39251a2bd99137ee8a56d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_62d9b64586085fb963839db90971801b = $(`<div id="html_62d9b64586085fb963839db90971801b" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d1f6486315d39251a2bd99137ee8a56d.setContent(html_62d9b64586085fb963839db90971801b);
+            
+        
+
+        circle_marker_01efcf4c4277a9358e79bf0cf7d4b30c.bindPopup(popup_d1f6486315d39251a2bd99137ee8a56d)
+        ;
+
+        
+    
+    
+            var circle_marker_752425e458986f048dc860b6c04c78de = L.circleMarker(
+                [4.984031, 102.932167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_17470bd0393f54fa782da370478ac04a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_40cf05884d6a4086b3ebcfde45dc4eca = $(`<div id="html_40cf05884d6a4086b3ebcfde45dc4eca" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_17470bd0393f54fa782da370478ac04a.setContent(html_40cf05884d6a4086b3ebcfde45dc4eca);
+            
+        
+
+        circle_marker_752425e458986f048dc860b6c04c78de.bindPopup(popup_17470bd0393f54fa782da370478ac04a)
+        ;
+
+        
+    
+    
+            var circle_marker_bbe5c1bb09338f3f157d283e7b1e0a10 = L.circleMarker(
+                [4.984031, 102.932167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_be15240ea5953a90a86baefcee68ae18 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_caf0bf83d664557850ee317781f10956 = $(`<div id="html_caf0bf83d664557850ee317781f10956" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_be15240ea5953a90a86baefcee68ae18.setContent(html_caf0bf83d664557850ee317781f10956);
+            
+        
+
+        circle_marker_bbe5c1bb09338f3f157d283e7b1e0a10.bindPopup(popup_be15240ea5953a90a86baefcee68ae18)
+        ;
+
+        
+    
+    
+            var circle_marker_bec0aa00c4c73991c54b4d0c1dd30a1a = L.circleMarker(
+                [4.984031, 102.932167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_2454c8ab5de01f64cebdf08320802a76 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_04da5603fd66da3620d5fc7adf8da360 = $(`<div id="html_04da5603fd66da3620d5fc7adf8da360" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2454c8ab5de01f64cebdf08320802a76.setContent(html_04da5603fd66da3620d5fc7adf8da360);
+            
+        
+
+        circle_marker_bec0aa00c4c73991c54b4d0c1dd30a1a.bindPopup(popup_2454c8ab5de01f64cebdf08320802a76)
+        ;
+
+        
+    
+    
+            var circle_marker_b3e29602d4b58d9393f46e887211eed3 = L.circleMarker(
+                [4.984031, 102.932167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_96391d21dbee3552dcff2681e274dd47);
+        
+    
+        var popup_a1815d27b17df11524660a0e037ba60d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_05db87451d88e48e10318d9aa360511b = $(`<div id="html_05db87451d88e48e10318d9aa360511b" style="width: 100.0%; height: 100.0%;">Genus: Pygoluciola<br>Species: dunguna<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a1815d27b17df11524660a0e037ba60d.setContent(html_05db87451d88e48e10318d9aa360511b);
+            
+        
+
+        circle_marker_b3e29602d4b58d9393f46e887211eed3.bindPopup(popup_a1815d27b17df11524660a0e037ba60d)
+        ;
+
+        
+    
+</script>
+</html>

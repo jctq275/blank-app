@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_08fdcd85bd86e61b377015d7d4bdafa0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_08fdcd85bd86e61b377015d7d4bdafa0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_08fdcd85bd86e61b377015d7d4bdafa0 = L.map(
+                "map_08fdcd85bd86e61b377015d7d4bdafa0",
+                {
+                    center: [4.093007333333333, 101.73125533333334],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2eaa4c028cb6c3221cf299111e0f524f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2eaa4c028cb6c3221cf299111e0f524f.addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+            var circle_marker_3a654968d3094730102dd156580b4727 = L.circleMarker(
+                [4.42698, 101.18672],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_7758a8581f6e66602a0974469dcc7fc9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_797ddfcfeace5bf8b4a09f3f8ab574a7 = $(`<div id="html_797ddfcfeace5bf8b4a09f3f8ab574a7" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_7758a8581f6e66602a0974469dcc7fc9.setContent(html_797ddfcfeace5bf8b4a09f3f8ab574a7);
+            
+        
+
+        circle_marker_3a654968d3094730102dd156580b4727.bindPopup(popup_7758a8581f6e66602a0974469dcc7fc9)
+        ;
+
+        
+    
+    
+            var circle_marker_83e28ece64d11f69736f16056e582ef2 = L.circleMarker(
+                [4.42697, 101.18696],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_11075414b2fa5228f788a400ab715844 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_679c5ded479b21755bbda301a10706bc = $(`<div id="html_679c5ded479b21755bbda301a10706bc" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_11075414b2fa5228f788a400ab715844.setContent(html_679c5ded479b21755bbda301a10706bc);
+            
+        
+
+        circle_marker_83e28ece64d11f69736f16056e582ef2.bindPopup(popup_11075414b2fa5228f788a400ab715844)
+        ;
+
+        
+    
+    
+            var circle_marker_d4b1a6ef34fbc21a420279b13cadab20 = L.circleMarker(
+                [4.42697, 101.18699],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_ce6ff069ccf20d32203cb49d6aa1ef01 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6c21df4c286057c2e8292432c859826a = $(`<div id="html_6c21df4c286057c2e8292432c859826a" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ce6ff069ccf20d32203cb49d6aa1ef01.setContent(html_6c21df4c286057c2e8292432c859826a);
+            
+        
+
+        circle_marker_d4b1a6ef34fbc21a420279b13cadab20.bindPopup(popup_ce6ff069ccf20d32203cb49d6aa1ef01)
+        ;
+
+        
+    
+    
+            var circle_marker_0bc10193448c9a6c60d7e2aadb42cac5 = L.circleMarker(
+                [4.99173, 101.96505],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_c243f0565660b5017ddc9144e5965e9a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_94b91d78d5537a0806f11564329eb09b = $(`<div id="html_94b91d78d5537a0806f11564329eb09b" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c243f0565660b5017ddc9144e5965e9a.setContent(html_94b91d78d5537a0806f11564329eb09b);
+            
+        
+
+        circle_marker_0bc10193448c9a6c60d7e2aadb42cac5.bindPopup(popup_c243f0565660b5017ddc9144e5965e9a)
+        ;
+
+        
+    
+    
+            var circle_marker_4a671d7587ae54f8caa79b360473ee9b = L.circleMarker(
+                [4.99179, 101.96514],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_f3b201d5aec84ef036d57db42a294dbd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_df418bf9ecd695541cf392dd1df6e16e = $(`<div id="html_df418bf9ecd695541cf392dd1df6e16e" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f3b201d5aec84ef036d57db42a294dbd.setContent(html_df418bf9ecd695541cf392dd1df6e16e);
+            
+        
+
+        circle_marker_4a671d7587ae54f8caa79b360473ee9b.bindPopup(popup_f3b201d5aec84ef036d57db42a294dbd)
+        ;
+
+        
+    
+    
+            var circle_marker_d9096b73d86ab6c9aea284c71589bbbd = L.circleMarker(
+                [6.64607, 100.20004],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_d6aea17259886b6cd0c366f854be7198 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_58d23cb849f9bbcc046a069e637c2755 = $(`<div id="html_58d23cb849f9bbcc046a069e637c2755" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d6aea17259886b6cd0c366f854be7198.setContent(html_58d23cb849f9bbcc046a069e637c2755);
+            
+        
+
+        circle_marker_d9096b73d86ab6c9aea284c71589bbbd.bindPopup(popup_d6aea17259886b6cd0c366f854be7198)
+        ;
+
+        
+    
+    
+            var circle_marker_7e050427ff64a01de8c94483613dc266 = L.circleMarker(
+                [3.24328, 101.68351],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_a2c2df5da53c38a84e456b6458dbf866 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1e863c13cbd60dce7a85c3f0ff555da9 = $(`<div id="html_1e863c13cbd60dce7a85c3f0ff555da9" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a2c2df5da53c38a84e456b6458dbf866.setContent(html_1e863c13cbd60dce7a85c3f0ff555da9);
+            
+        
+
+        circle_marker_7e050427ff64a01de8c94483613dc266.bindPopup(popup_a2c2df5da53c38a84e456b6458dbf866)
+        ;
+
+        
+    
+    
+            var circle_marker_5576565a4afc77e5f35c6f2015ed048d = L.circleMarker(
+                [3.24485, 101.68331],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_3f847a35fd3c46a8609c242fb1c80b98 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bca836b7d4b7390aa58282493652a0bb = $(`<div id="html_bca836b7d4b7390aa58282493652a0bb" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3f847a35fd3c46a8609c242fb1c80b98.setContent(html_bca836b7d4b7390aa58282493652a0bb);
+            
+        
+
+        circle_marker_5576565a4afc77e5f35c6f2015ed048d.bindPopup(popup_3f847a35fd3c46a8609c242fb1c80b98)
+        ;
+
+        
+    
+    
+            var circle_marker_aa48ce63d3db1f599866a92892ed2f96 = L.circleMarker(
+                [3.24339, 101.68349],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_04d79e12d978acdaf01708d17eac2c75 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2c473719d744ce724096e3c7bd5739c5 = $(`<div id="html_2c473719d744ce724096e3c7bd5739c5" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_04d79e12d978acdaf01708d17eac2c75.setContent(html_2c473719d744ce724096e3c7bd5739c5);
+            
+        
+
+        circle_marker_aa48ce63d3db1f599866a92892ed2f96.bindPopup(popup_04d79e12d978acdaf01708d17eac2c75)
+        ;
+
+        
+    
+    
+            var circle_marker_3c52cfbaafb238696be135f50fa2a662 = L.circleMarker(
+                [3.24398, 101.68345],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_ca630bca19576db97471ed1a1dcba930 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8bdcd462aee7e1fe4ce2163a5770b440 = $(`<div id="html_8bdcd462aee7e1fe4ce2163a5770b440" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ca630bca19576db97471ed1a1dcba930.setContent(html_8bdcd462aee7e1fe4ce2163a5770b440);
+            
+        
+
+        circle_marker_3c52cfbaafb238696be135f50fa2a662.bindPopup(popup_ca630bca19576db97471ed1a1dcba930)
+        ;
+
+        
+    
+    
+            var circle_marker_27a204069c7b1ff510e22a052026c33d = L.circleMarker(
+                [3.33139, 101.81575],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_8bd7de0022c0ea39a81ce03a8c7463d9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_aa2713e1fb81a176ed5f51d05cce59e5 = $(`<div id="html_aa2713e1fb81a176ed5f51d05cce59e5" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8bd7de0022c0ea39a81ce03a8c7463d9.setContent(html_aa2713e1fb81a176ed5f51d05cce59e5);
+            
+        
+
+        circle_marker_27a204069c7b1ff510e22a052026c33d.bindPopup(popup_8bd7de0022c0ea39a81ce03a8c7463d9)
+        ;
+
+        
+    
+    
+            var circle_marker_8201508f52f610c6f7d2a545449d68a6 = L.circleMarker(
+                [3.14638, 101.63437],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_c6c4142327b10ca93faf8efc99d60624 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f330829d91fa1a267db633ddab5cf5f8 = $(`<div id="html_f330829d91fa1a267db633ddab5cf5f8" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c6c4142327b10ca93faf8efc99d60624.setContent(html_f330829d91fa1a267db633ddab5cf5f8);
+            
+        
+
+        circle_marker_8201508f52f610c6f7d2a545449d68a6.bindPopup(popup_c6c4142327b10ca93faf8efc99d60624)
+        ;
+
+        
+    
+    
+            var circle_marker_c224ced57259b5ce570c7d518b7fe9f9 = L.circleMarker(
+                [2.93927, 101.71851],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_c42bf37751b655f67f4627ff5a12fc85 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a17e2b1d2bf4e41a932a7711cb6ae418 = $(`<div id="html_a17e2b1d2bf4e41a932a7711cb6ae418" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c42bf37751b655f67f4627ff5a12fc85.setContent(html_a17e2b1d2bf4e41a932a7711cb6ae418);
+            
+        
+
+        circle_marker_c224ced57259b5ce570c7d518b7fe9f9.bindPopup(popup_c42bf37751b655f67f4627ff5a12fc85)
+        ;
+
+        
+    
+    
+            var circle_marker_f265bd9497c98f9feff5ffb7633cd148 = L.circleMarker(
+                [4.54603, 103.18777],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_2ce92cf0da1b61e210fda37216a881be = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ccb925d1718662b28d0fb550a2c0782b = $(`<div id="html_ccb925d1718662b28d0fb550a2c0782b" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2ce92cf0da1b61e210fda37216a881be.setContent(html_ccb925d1718662b28d0fb550a2c0782b);
+            
+        
+
+        circle_marker_f265bd9497c98f9feff5ffb7633cd148.bindPopup(popup_2ce92cf0da1b61e210fda37216a881be)
+        ;
+
+        
+    
+    
+            var circle_marker_587a9bdeabce11e4dff0b73ca56e2546 = L.circleMarker(
+                [4.54603, 103.18777],
+                {"bubblingMouseEvents": true, "color": "navy", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "navy", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_08fdcd85bd86e61b377015d7d4bdafa0);
+        
+    
+        var popup_e1026947cec7fa42f206bdacce64db9c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_702975d3ee1d1f521aaca8776df24124 = $(`<div id="html_702975d3ee1d1f521aaca8776df24124" style="width: 100.0%; height: 100.0%;">Genus: Colophotia<br>Species: brevis<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e1026947cec7fa42f206bdacce64db9c.setContent(html_702975d3ee1d1f521aaca8776df24124);
+            
+        
+
+        circle_marker_587a9bdeabce11e4dff0b73ca56e2546.bindPopup(popup_e1026947cec7fa42f206bdacce64db9c)
+        ;
+
+        
+    
+</script>
+</html>

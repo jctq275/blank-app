@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0664fdc3d5247709d8992d9acb927f0e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0664fdc3d5247709d8992d9acb927f0e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0664fdc3d5247709d8992d9acb927f0e = L.map(
+                "map_0664fdc3d5247709d8992d9acb927f0e",
+                {
+                    center: [2.7897638461538454, 103.69496576923076],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_582981365e311ab3d0d8029dadb84a19 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_582981365e311ab3d0d8029dadb84a19.addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+            var circle_marker_f96ab383969d6126fa291bf6e96fc557 = L.circleMarker(
+                [3.7713, 103.2884],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_4bb29e1433239bef0176dfb904d71d23 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e1ff93f960ecb612478154d7c073feb6 = $(`<div id="html_e1ff93f960ecb612478154d7c073feb6" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_4bb29e1433239bef0176dfb904d71d23.setContent(html_e1ff93f960ecb612478154d7c073feb6);
+            
+        
+
+        circle_marker_f96ab383969d6126fa291bf6e96fc557.bindPopup(popup_4bb29e1433239bef0176dfb904d71d23)
+        ;
+
+        
+    
+    
+            var circle_marker_3259edded46276b10d652118ae13586b = L.circleMarker(
+                [3.77135, 103.28895],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_af8173c5c553b530667113e5df3a68cf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5bcae3a2cb8db596a7eaa1a337464aea = $(`<div id="html_5bcae3a2cb8db596a7eaa1a337464aea" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_af8173c5c553b530667113e5df3a68cf.setContent(html_5bcae3a2cb8db596a7eaa1a337464aea);
+            
+        
+
+        circle_marker_3259edded46276b10d652118ae13586b.bindPopup(popup_af8173c5c553b530667113e5df3a68cf)
+        ;
+
+        
+    
+    
+            var circle_marker_693d17f77e442b083016dc162ce60e61 = L.circleMarker(
+                [3.77202, 103.28985],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_a5976552e9154cadc9e3a4796ac7729e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_045436a1e68a5fce0b08facd91cec5c8 = $(`<div id="html_045436a1e68a5fce0b08facd91cec5c8" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a5976552e9154cadc9e3a4796ac7729e.setContent(html_045436a1e68a5fce0b08facd91cec5c8);
+            
+        
+
+        circle_marker_693d17f77e442b083016dc162ce60e61.bindPopup(popup_a5976552e9154cadc9e3a4796ac7729e)
+        ;
+
+        
+    
+    
+            var circle_marker_127411e0facb0d29063283128baa2d43 = L.circleMarker(
+                [3.77379, 103.29069],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_aa617faae95e33959af93b0d0441be1b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0798b06246feaa710b2f73b9f4606477 = $(`<div id="html_0798b06246feaa710b2f73b9f4606477" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_aa617faae95e33959af93b0d0441be1b.setContent(html_0798b06246feaa710b2f73b9f4606477);
+            
+        
+
+        circle_marker_127411e0facb0d29063283128baa2d43.bindPopup(popup_aa617faae95e33959af93b0d0441be1b)
+        ;
+
+        
+    
+    
+            var circle_marker_6140288655116ec73655e7b06d4aef26 = L.circleMarker(
+                [3.7768, 103.2969],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_620e9e3d540173373c2d7c601ca23fec = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b05921f60e8d93abe70900d4c0b009cf = $(`<div id="html_b05921f60e8d93abe70900d4c0b009cf" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_620e9e3d540173373c2d7c601ca23fec.setContent(html_b05921f60e8d93abe70900d4c0b009cf);
+            
+        
+
+        circle_marker_6140288655116ec73655e7b06d4aef26.bindPopup(popup_620e9e3d540173373c2d7c601ca23fec)
+        ;
+
+        
+    
+    
+            var circle_marker_b6f244081f2deec9c45dc816fccc2d52 = L.circleMarker(
+                [3.77421, 103.29914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_f7589ed5856764bc4a61dcf88d1cf327 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_24d80e0fc5312ae1bbeed30f3f307f24 = $(`<div id="html_24d80e0fc5312ae1bbeed30f3f307f24" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f7589ed5856764bc4a61dcf88d1cf327.setContent(html_24d80e0fc5312ae1bbeed30f3f307f24);
+            
+        
+
+        circle_marker_b6f244081f2deec9c45dc816fccc2d52.bindPopup(popup_f7589ed5856764bc4a61dcf88d1cf327)
+        ;
+
+        
+    
+    
+            var circle_marker_fa7883b283cd4d8da589f081270564f4 = L.circleMarker(
+                [3.77421, 103.29914],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_00585764c98cf1eca950fcc00b9b848d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d0a8a2cd2e49498227404fd07d62e116 = $(`<div id="html_d0a8a2cd2e49498227404fd07d62e116" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_00585764c98cf1eca950fcc00b9b848d.setContent(html_d0a8a2cd2e49498227404fd07d62e116);
+            
+        
+
+        circle_marker_fa7883b283cd4d8da589f081270564f4.bindPopup(popup_00585764c98cf1eca950fcc00b9b848d)
+        ;
+
+        
+    
+    
+            var circle_marker_a6afbba9e190950ac980786c252851fd = L.circleMarker(
+                [3.76479, 103.29357],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_6721741903ec3085647c53d653a64ccb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fbe518c6acf0aaf547a83e490495a145 = $(`<div id="html_fbe518c6acf0aaf547a83e490495a145" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6721741903ec3085647c53d653a64ccb.setContent(html_fbe518c6acf0aaf547a83e490495a145);
+            
+        
+
+        circle_marker_a6afbba9e190950ac980786c252851fd.bindPopup(popup_6721741903ec3085647c53d653a64ccb)
+        ;
+
+        
+    
+    
+            var circle_marker_398b2e1f4546b877457159544799dd4e = L.circleMarker(
+                [3.76466, 103.29357],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_d895b80961dddff4f5bdfee890851431 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a22a758ed165d34eb19d8500df070e7b = $(`<div id="html_a22a758ed165d34eb19d8500df070e7b" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d895b80961dddff4f5bdfee890851431.setContent(html_a22a758ed165d34eb19d8500df070e7b);
+            
+        
+
+        circle_marker_398b2e1f4546b877457159544799dd4e.bindPopup(popup_d895b80961dddff4f5bdfee890851431)
+        ;
+
+        
+    
+    
+            var circle_marker_6c0f4b7169f2d01a90dca322687fdf3e = L.circleMarker(
+                [3.7657, 103.27885],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_bc4ea6577cfb533429689883a9a86e67 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d261a58c89ecfb7e8e11f833040598a3 = $(`<div id="html_d261a58c89ecfb7e8e11f833040598a3" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bc4ea6577cfb533429689883a9a86e67.setContent(html_d261a58c89ecfb7e8e11f833040598a3);
+            
+        
+
+        circle_marker_6c0f4b7169f2d01a90dca322687fdf3e.bindPopup(popup_bc4ea6577cfb533429689883a9a86e67)
+        ;
+
+        
+    
+    
+            var circle_marker_3f08ae51816a371966ade48b6b207fe1 = L.circleMarker(
+                [3.76205, 103.27921],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_5783186d5c772cba06704e050b0a1158 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_488c140542b6b8db31baa64bba865b88 = $(`<div id="html_488c140542b6b8db31baa64bba865b88" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_5783186d5c772cba06704e050b0a1158.setContent(html_488c140542b6b8db31baa64bba865b88);
+            
+        
+
+        circle_marker_3f08ae51816a371966ade48b6b207fe1.bindPopup(popup_5783186d5c772cba06704e050b0a1158)
+        ;
+
+        
+    
+    
+            var circle_marker_314efeca50faf38c14a035599ab31968 = L.circleMarker(
+                [3.76205, 103.27921],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_c23abcd07c4780fa133e6ec5b733ee05 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2c8356515068f9b6ef75cdb92dec815 = $(`<div id="html_c2c8356515068f9b6ef75cdb92dec815" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c23abcd07c4780fa133e6ec5b733ee05.setContent(html_c2c8356515068f9b6ef75cdb92dec815);
+            
+        
+
+        circle_marker_314efeca50faf38c14a035599ab31968.bindPopup(popup_c23abcd07c4780fa133e6ec5b733ee05)
+        ;
+
+        
+    
+    
+            var circle_marker_4ce0c9b4186f3787efbac17f9e1887f5 = L.circleMarker(
+                [3.76359, 103.27998],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_ed07bc8b1c6ce5cc6ab295a93ff0d2b9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4de09e9ee105cee765b7f31a5d07f099 = $(`<div id="html_4de09e9ee105cee765b7f31a5d07f099" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ed07bc8b1c6ce5cc6ab295a93ff0d2b9.setContent(html_4de09e9ee105cee765b7f31a5d07f099);
+            
+        
+
+        circle_marker_4ce0c9b4186f3787efbac17f9e1887f5.bindPopup(popup_ed07bc8b1c6ce5cc6ab295a93ff0d2b9)
+        ;
+
+        
+    
+    
+            var circle_marker_ba39aab5bce52eab7cd41512e7575d14 = L.circleMarker(
+                [4.13244, 103.39496],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_58a274ec1afe6c394c6c87d748e920b3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_87cf0c787527f744fb5068205a7fa66c = $(`<div id="html_87cf0c787527f744fb5068205a7fa66c" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_58a274ec1afe6c394c6c87d748e920b3.setContent(html_87cf0c787527f744fb5068205a7fa66c);
+            
+        
+
+        circle_marker_ba39aab5bce52eab7cd41512e7575d14.bindPopup(popup_58a274ec1afe6c394c6c87d748e920b3)
+        ;
+
+        
+    
+    
+            var circle_marker_b5c6e5ebee887bffa312571f29c2829c = L.circleMarker(
+                [4.13286, 103.39525],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_caacd6eb7c10411974b953312ea8b5a3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_16d5df2e2e216baec8394e2306fec85f = $(`<div id="html_16d5df2e2e216baec8394e2306fec85f" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_caacd6eb7c10411974b953312ea8b5a3.setContent(html_16d5df2e2e216baec8394e2306fec85f);
+            
+        
+
+        circle_marker_b5c6e5ebee887bffa312571f29c2829c.bindPopup(popup_caacd6eb7c10411974b953312ea8b5a3)
+        ;
+
+        
+    
+    
+            var circle_marker_80a4648c4405a573445476a82f5f7cbf = L.circleMarker(
+                [4.13384, 103.39554],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_fb2c0378d28d22f373ca77294f42c2a1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cdfeb897912c622d9504c04838d15dea = $(`<div id="html_cdfeb897912c622d9504c04838d15dea" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_fb2c0378d28d22f373ca77294f42c2a1.setContent(html_cdfeb897912c622d9504c04838d15dea);
+            
+        
+
+        circle_marker_80a4648c4405a573445476a82f5f7cbf.bindPopup(popup_fb2c0378d28d22f373ca77294f42c2a1)
+        ;
+
+        
+    
+    
+            var circle_marker_cfa008c727d3b424810a0fa80aa3f3ce = L.circleMarker(
+                [4.13633, 103.39737],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_6415477e42b0194fdc75f0986271f66e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_84c0c195827a420fcc889ab36e9a1d59 = $(`<div id="html_84c0c195827a420fcc889ab36e9a1d59" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6415477e42b0194fdc75f0986271f66e.setContent(html_84c0c195827a420fcc889ab36e9a1d59);
+            
+        
+
+        circle_marker_cfa008c727d3b424810a0fa80aa3f3ce.bindPopup(popup_6415477e42b0194fdc75f0986271f66e)
+        ;
+
+        
+    
+    
+            var circle_marker_86c49eb1d5288b067ee0c4fc376e2fb4 = L.circleMarker(
+                [4.13609, 103.39325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_00a12ea4d62d570ed1f39874f3903800 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e95be295998856ea03ed792d90c8240e = $(`<div id="html_e95be295998856ea03ed792d90c8240e" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_00a12ea4d62d570ed1f39874f3903800.setContent(html_e95be295998856ea03ed792d90c8240e);
+            
+        
+
+        circle_marker_86c49eb1d5288b067ee0c4fc376e2fb4.bindPopup(popup_00a12ea4d62d570ed1f39874f3903800)
+        ;
+
+        
+    
+    
+            var circle_marker_ceb1f7eb5378ce30be0ae1ec8ca6f6a2 = L.circleMarker(
+                [4.13609, 103.39325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_e0b4d4d2cccd886267ca8f058a43c86e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_80b3586500899d43cd7c2825a6e5ac5a = $(`<div id="html_80b3586500899d43cd7c2825a6e5ac5a" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e0b4d4d2cccd886267ca8f058a43c86e.setContent(html_80b3586500899d43cd7c2825a6e5ac5a);
+            
+        
+
+        circle_marker_ceb1f7eb5378ce30be0ae1ec8ca6f6a2.bindPopup(popup_e0b4d4d2cccd886267ca8f058a43c86e)
+        ;
+
+        
+    
+    
+            var circle_marker_4d1df70b39fa0b98edbdf689225259ee = L.circleMarker(
+                [4.13613, 103.39324],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_db4ef1aa585b2141e0cd725a278a21de = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c96c7bcdab8b7a325a7d5a7cf491df11 = $(`<div id="html_c96c7bcdab8b7a325a7d5a7cf491df11" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_db4ef1aa585b2141e0cd725a278a21de.setContent(html_c96c7bcdab8b7a325a7d5a7cf491df11);
+            
+        
+
+        circle_marker_4d1df70b39fa0b98edbdf689225259ee.bindPopup(popup_db4ef1aa585b2141e0cd725a278a21de)
+        ;
+
+        
+    
+    
+            var circle_marker_5a1a6d32239b69ee7a5ad0769bab5dc2 = L.circleMarker(
+                [4.13389, 103.38987],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_2b6dd844857e090ac203f5d5dafa0c91 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bc018a8e9a6c7a6da661090ffb2885ca = $(`<div id="html_bc018a8e9a6c7a6da661090ffb2885ca" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2b6dd844857e090ac203f5d5dafa0c91.setContent(html_bc018a8e9a6c7a6da661090ffb2885ca);
+            
+        
+
+        circle_marker_5a1a6d32239b69ee7a5ad0769bab5dc2.bindPopup(popup_2b6dd844857e090ac203f5d5dafa0c91)
+        ;
+
+        
+    
+    
+            var circle_marker_59641bec320eb2a3b8077aa2fc3cb232 = L.circleMarker(
+                [4.13385, 103.3832],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_a8933ac77a0e13b401f193f4bfeb8b66 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1cbea82c5ac44d2fea61c3fe15925db9 = $(`<div id="html_1cbea82c5ac44d2fea61c3fe15925db9" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_a8933ac77a0e13b401f193f4bfeb8b66.setContent(html_1cbea82c5ac44d2fea61c3fe15925db9);
+            
+        
+
+        circle_marker_59641bec320eb2a3b8077aa2fc3cb232.bindPopup(popup_a8933ac77a0e13b401f193f4bfeb8b66)
+        ;
+
+        
+    
+    
+            var circle_marker_22984a49188b15e93b5855d9a0357847 = L.circleMarker(
+                [4.13515, 103.37972],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_13f099d3e634e3b5a5cf6182259efdeb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e2f176b56df17fbcc64e6982a6cdec88 = $(`<div id="html_e2f176b56df17fbcc64e6982a6cdec88" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_13f099d3e634e3b5a5cf6182259efdeb.setContent(html_e2f176b56df17fbcc64e6982a6cdec88);
+            
+        
+
+        circle_marker_22984a49188b15e93b5855d9a0357847.bindPopup(popup_13f099d3e634e3b5a5cf6182259efdeb)
+        ;
+
+        
+    
+    
+            var circle_marker_37e21394add48b7efa554bba2de5ccb8 = L.circleMarker(
+                [4.13513, 103.37947],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_aa99d05e7f675a4cfb2b225afedb863b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f45a1ce4b926cfc9b6fa7a8b5e83996d = $(`<div id="html_f45a1ce4b926cfc9b6fa7a8b5e83996d" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_aa99d05e7f675a4cfb2b225afedb863b.setContent(html_f45a1ce4b926cfc9b6fa7a8b5e83996d);
+            
+        
+
+        circle_marker_37e21394add48b7efa554bba2de5ccb8.bindPopup(popup_aa99d05e7f675a4cfb2b225afedb863b)
+        ;
+
+        
+    
+    
+            var circle_marker_b925c0b96e4c14680742baac0aa6582a = L.circleMarker(
+                [4.13183, 103.39453],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_194b37d5221a0f1170d114493a91ad3c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1d3c2c790153e86362c6890cde6da910 = $(`<div id="html_1d3c2c790153e86362c6890cde6da910" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_194b37d5221a0f1170d114493a91ad3c.setContent(html_1d3c2c790153e86362c6890cde6da910);
+            
+        
+
+        circle_marker_b925c0b96e4c14680742baac0aa6582a.bindPopup(popup_194b37d5221a0f1170d114493a91ad3c)
+        ;
+
+        
+    
+    
+            var circle_marker_80d09992b61e6a0241b3304da50ad700 = L.circleMarker(
+                [4.13263, 103.39502],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_dd398131e34535941841dce06a56a3ac = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9cc4d2cce8484830191d0ac0272b7d76 = $(`<div id="html_9cc4d2cce8484830191d0ac0272b7d76" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_dd398131e34535941841dce06a56a3ac.setContent(html_9cc4d2cce8484830191d0ac0272b7d76);
+            
+        
+
+        circle_marker_80d09992b61e6a0241b3304da50ad700.bindPopup(popup_dd398131e34535941841dce06a56a3ac)
+        ;
+
+        
+    
+    
+            var circle_marker_626460c49d3682e1c03dbab19d2bff56 = L.circleMarker(
+                [4.13767, 103.39764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_49a6c17295f736c98416a8c9d08c58c5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e8d5b08cffdef25eef733fc0661e97e3 = $(`<div id="html_e8d5b08cffdef25eef733fc0661e97e3" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_49a6c17295f736c98416a8c9d08c58c5.setContent(html_e8d5b08cffdef25eef733fc0661e97e3);
+            
+        
+
+        circle_marker_626460c49d3682e1c03dbab19d2bff56.bindPopup(popup_49a6c17295f736c98416a8c9d08c58c5)
+        ;
+
+        
+    
+    
+            var circle_marker_d53a8642166344327fc93f5601836f5b = L.circleMarker(
+                [4.13767, 103.39764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_b062e9a2e0585562d3be37fb5d45a711 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0bac056bbe40201c4f21336ce33c004c = $(`<div id="html_0bac056bbe40201c4f21336ce33c004c" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_b062e9a2e0585562d3be37fb5d45a711.setContent(html_0bac056bbe40201c4f21336ce33c004c);
+            
+        
+
+        circle_marker_d53a8642166344327fc93f5601836f5b.bindPopup(popup_b062e9a2e0585562d3be37fb5d45a711)
+        ;
+
+        
+    
+    
+            var circle_marker_06e0e4f3ae8c578d065d30b6c786a260 = L.circleMarker(
+                [4.13767, 103.39764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_f9a6e944a2e9ed76190deaa16f2ddac4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_955a751bb79da52f64051b2f66107325 = $(`<div id="html_955a751bb79da52f64051b2f66107325" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f9a6e944a2e9ed76190deaa16f2ddac4.setContent(html_955a751bb79da52f64051b2f66107325);
+            
+        
+
+        circle_marker_06e0e4f3ae8c578d065d30b6c786a260.bindPopup(popup_f9a6e944a2e9ed76190deaa16f2ddac4)
+        ;
+
+        
+    
+    
+            var circle_marker_3783f2579b4a176cc0d3184a8f4c0e37 = L.circleMarker(
+                [4.30178, 103.38226],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_e3939ba2394687e53cc601c807cbeb03 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1efaad0d2405205998a6f02089ba58f0 = $(`<div id="html_1efaad0d2405205998a6f02089ba58f0" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e3939ba2394687e53cc601c807cbeb03.setContent(html_1efaad0d2405205998a6f02089ba58f0);
+            
+        
+
+        circle_marker_3783f2579b4a176cc0d3184a8f4c0e37.bindPopup(popup_e3939ba2394687e53cc601c807cbeb03)
+        ;
+
+        
+    
+    
+            var circle_marker_f11fca17d0d1b83a1d36af933ba9c7e7 = L.circleMarker(
+                [4.29622, 103.41214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_ec2e3d8da18d25f26bcccea0d6f014e5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a6ba051fa11513b3df8bd37f8c574ea1 = $(`<div id="html_a6ba051fa11513b3df8bd37f8c574ea1" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ec2e3d8da18d25f26bcccea0d6f014e5.setContent(html_a6ba051fa11513b3df8bd37f8c574ea1);
+            
+        
+
+        circle_marker_f11fca17d0d1b83a1d36af933ba9c7e7.bindPopup(popup_ec2e3d8da18d25f26bcccea0d6f014e5)
+        ;
+
+        
+    
+    
+            var circle_marker_51c7e808e0e3d779b0d3b59a797d7b7b = L.circleMarker(
+                [4.29622, 103.41214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_93da27be9e5626f8382e1c6055bb7974 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b1f02f0b505752785b30cbe2a12c42b1 = $(`<div id="html_b1f02f0b505752785b30cbe2a12c42b1" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_93da27be9e5626f8382e1c6055bb7974.setContent(html_b1f02f0b505752785b30cbe2a12c42b1);
+            
+        
+
+        circle_marker_51c7e808e0e3d779b0d3b59a797d7b7b.bindPopup(popup_93da27be9e5626f8382e1c6055bb7974)
+        ;
+
+        
+    
+    
+            var circle_marker_07b0a1a8f09abd8cda9fc0a1730f0719 = L.circleMarker(
+                [4.29622, 103.41214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_93e1b29a071386436602868caa531f3f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_63601eed00cbcaab0e6a836e9f4b4142 = $(`<div id="html_63601eed00cbcaab0e6a836e9f4b4142" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_93e1b29a071386436602868caa531f3f.setContent(html_63601eed00cbcaab0e6a836e9f4b4142);
+            
+        
+
+        circle_marker_07b0a1a8f09abd8cda9fc0a1730f0719.bindPopup(popup_93e1b29a071386436602868caa531f3f)
+        ;
+
+        
+    
+    
+            var circle_marker_7f5d7ad057e1cdf74628082658c0b028 = L.circleMarker(
+                [4.29622, 103.41214],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_2135a321f2b1569a09e38547af4ad94d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ef83a4aac2028f6dd4eefc3e66164a53 = $(`<div id="html_ef83a4aac2028f6dd4eefc3e66164a53" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2135a321f2b1569a09e38547af4ad94d.setContent(html_ef83a4aac2028f6dd4eefc3e66164a53);
+            
+        
+
+        circle_marker_7f5d7ad057e1cdf74628082658c0b028.bindPopup(popup_2135a321f2b1569a09e38547af4ad94d)
+        ;
+
+        
+    
+    
+            var circle_marker_cd6b60b4f8988370de9000ef0720b2cd = L.circleMarker(
+                [4.29175, 103.41831],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_83923364babb83763042346ca0f050d4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_77a35738015beecba5994a61f485de4f = $(`<div id="html_77a35738015beecba5994a61f485de4f" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_83923364babb83763042346ca0f050d4.setContent(html_77a35738015beecba5994a61f485de4f);
+            
+        
+
+        circle_marker_cd6b60b4f8988370de9000ef0720b2cd.bindPopup(popup_83923364babb83763042346ca0f050d4)
+        ;
+
+        
+    
+    
+            var circle_marker_75a6d59817df000ab2f70af0b974627e = L.circleMarker(
+                [4.29175, 103.41831],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_2e875c01f8d71ad35bb712a5db25b6e8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1fe2a24974834bf30bbd141330233d77 = $(`<div id="html_1fe2a24974834bf30bbd141330233d77" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_2e875c01f8d71ad35bb712a5db25b6e8.setContent(html_1fe2a24974834bf30bbd141330233d77);
+            
+        
+
+        circle_marker_75a6d59817df000ab2f70af0b974627e.bindPopup(popup_2e875c01f8d71ad35bb712a5db25b6e8)
+        ;
+
+        
+    
+    
+            var circle_marker_06482450b01eb5a2ff20780ef0470be4 = L.circleMarker(
+                [4.2883, 103.41154],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_78c60f6cae03017031895c19f553f1ff = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8d1598ecd669bc2716443215428c7b91 = $(`<div id="html_8d1598ecd669bc2716443215428c7b91" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_78c60f6cae03017031895c19f553f1ff.setContent(html_8d1598ecd669bc2716443215428c7b91);
+            
+        
+
+        circle_marker_06482450b01eb5a2ff20780ef0470be4.bindPopup(popup_78c60f6cae03017031895c19f553f1ff)
+        ;
+
+        
+    
+    
+            var circle_marker_1c2a2fedb91f252116722a97e927bd3e = L.circleMarker(
+                [4.2883, 103.41154],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_70e75b507e6393f6ad10d199b396084d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a641cb512223e36ddd39d13f4c0ba8a5 = $(`<div id="html_a641cb512223e36ddd39d13f4c0ba8a5" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_70e75b507e6393f6ad10d199b396084d.setContent(html_a641cb512223e36ddd39d13f4c0ba8a5);
+            
+        
+
+        circle_marker_1c2a2fedb91f252116722a97e927bd3e.bindPopup(popup_70e75b507e6393f6ad10d199b396084d)
+        ;
+
+        
+    
+    
+            var circle_marker_246318f350de6a343bab0f5db03ba8aa = L.circleMarker(
+                [4.29021, 103.41048],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_6625e068f1d63b0f2395b9f890c5f65a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5a60032153019f9c4919f7797866ac72 = $(`<div id="html_5a60032153019f9c4919f7797866ac72" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_6625e068f1d63b0f2395b9f890c5f65a.setContent(html_5a60032153019f9c4919f7797866ac72);
+            
+        
+
+        circle_marker_246318f350de6a343bab0f5db03ba8aa.bindPopup(popup_6625e068f1d63b0f2395b9f890c5f65a)
+        ;
+
+        
+    
+    
+            var circle_marker_876e364603a2ee2832a71f138668e692 = L.circleMarker(
+                [1.55413, 104.17889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_45b1b3c59492be503d769b715bb6aace = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_83349be508818a51e97a2f6b52dcedbc = $(`<div id="html_83349be508818a51e97a2f6b52dcedbc" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_45b1b3c59492be503d769b715bb6aace.setContent(html_83349be508818a51e97a2f6b52dcedbc);
+            
+        
+
+        circle_marker_876e364603a2ee2832a71f138668e692.bindPopup(popup_45b1b3c59492be503d769b715bb6aace)
+        ;
+
+        
+    
+    
+            var circle_marker_4308f12d050b2af1adfb0005d7922c03 = L.circleMarker(
+                [1.55413, 104.17889],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_c14eadf66ef39a78ed4a43a459195a4a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0515bb11f2a0dc6a81b02a3f6c930431 = $(`<div id="html_0515bb11f2a0dc6a81b02a3f6c930431" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_c14eadf66ef39a78ed4a43a459195a4a.setContent(html_0515bb11f2a0dc6a81b02a3f6c930431);
+            
+        
+
+        circle_marker_4308f12d050b2af1adfb0005d7922c03.bindPopup(popup_c14eadf66ef39a78ed4a43a459195a4a)
+        ;
+
+        
+    
+    
+            var circle_marker_3d916328002268a91bf41476cf894f77 = L.circleMarker(
+                [1.55367, 104.17877],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_5663090be8c2d5170bcd9bc3e4dd3fe7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_449b7f74be3976a3d8474395991318fe = $(`<div id="html_449b7f74be3976a3d8474395991318fe" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_5663090be8c2d5170bcd9bc3e4dd3fe7.setContent(html_449b7f74be3976a3d8474395991318fe);
+            
+        
+
+        circle_marker_3d916328002268a91bf41476cf894f77.bindPopup(popup_5663090be8c2d5170bcd9bc3e4dd3fe7)
+        ;
+
+        
+    
+    
+            var circle_marker_664e93e4781d1ad8a1fc40f6fa40b327 = L.circleMarker(
+                [1.55237, 104.17791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_aaccf189345e60a792af4d3ae0ac0d4f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ad3a8803438fe881504e897ba997626 = $(`<div id="html_1ad3a8803438fe881504e897ba997626" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_aaccf189345e60a792af4d3ae0ac0d4f.setContent(html_1ad3a8803438fe881504e897ba997626);
+            
+        
+
+        circle_marker_664e93e4781d1ad8a1fc40f6fa40b327.bindPopup(popup_aaccf189345e60a792af4d3ae0ac0d4f)
+        ;
+
+        
+    
+    
+            var circle_marker_c7880ac1619aa339ab2540db714ad091 = L.circleMarker(
+                [1.55237, 104.17791],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_f510e0fe32d2f9f10f91e989ca343ea4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_98f0d04571642fbe9f73df4894e7920c = $(`<div id="html_98f0d04571642fbe9f73df4894e7920c" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f510e0fe32d2f9f10f91e989ca343ea4.setContent(html_98f0d04571642fbe9f73df4894e7920c);
+            
+        
+
+        circle_marker_c7880ac1619aa339ab2540db714ad091.bindPopup(popup_f510e0fe32d2f9f10f91e989ca343ea4)
+        ;
+
+        
+    
+    
+            var circle_marker_1cd1dc93da7f6b3094917eaa383887a4 = L.circleMarker(
+                [1.55237, 104.17741],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_79c890347d4a9622caf8e62760ad548f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c5df39c43f8d05b4210b2c3cfd25e216 = $(`<div id="html_c5df39c43f8d05b4210b2c3cfd25e216" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_79c890347d4a9622caf8e62760ad548f.setContent(html_c5df39c43f8d05b4210b2c3cfd25e216);
+            
+        
+
+        circle_marker_1cd1dc93da7f6b3094917eaa383887a4.bindPopup(popup_79c890347d4a9622caf8e62760ad548f)
+        ;
+
+        
+    
+    
+            var circle_marker_0ab8849a38b3a14679132231cda7eb1c = L.circleMarker(
+                [1.54639, 104.16624],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_bfdfd0d08bf8a797ba1a081d4cd7bcda = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e3e363856a1bc7c524002f77f7c1501c = $(`<div id="html_e3e363856a1bc7c524002f77f7c1501c" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bfdfd0d08bf8a797ba1a081d4cd7bcda.setContent(html_e3e363856a1bc7c524002f77f7c1501c);
+            
+        
+
+        circle_marker_0ab8849a38b3a14679132231cda7eb1c.bindPopup(popup_bfdfd0d08bf8a797ba1a081d4cd7bcda)
+        ;
+
+        
+    
+    
+            var circle_marker_8a567d620117888ffc2c5881513ae908 = L.circleMarker(
+                [1.54998, 104.14812],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_fdbcd40db9eb7480aa4ed932ccef0515 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1943288f0cc52669d67e7ade927c885c = $(`<div id="html_1943288f0cc52669d67e7ade927c885c" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_fdbcd40db9eb7480aa4ed932ccef0515.setContent(html_1943288f0cc52669d67e7ade927c885c);
+            
+        
+
+        circle_marker_8a567d620117888ffc2c5881513ae908.bindPopup(popup_fdbcd40db9eb7480aa4ed932ccef0515)
+        ;
+
+        
+    
+    
+            var circle_marker_fdc4fac59bd9ed1dad1a5566048fccea = L.circleMarker(
+                [1.54998, 104.14812],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_1427d61493c93372be847a1df9ec90f3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b9cd84cb5384497c491be0f176f8fbcc = $(`<div id="html_b9cd84cb5384497c491be0f176f8fbcc" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_1427d61493c93372be847a1df9ec90f3.setContent(html_b9cd84cb5384497c491be0f176f8fbcc);
+            
+        
+
+        circle_marker_fdc4fac59bd9ed1dad1a5566048fccea.bindPopup(popup_1427d61493c93372be847a1df9ec90f3)
+        ;
+
+        
+    
+    
+            var circle_marker_85b7c93de7271a569c5578096d8ac85a = L.circleMarker(
+                [1.5606, 104.18828],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_af1043d665238178c9cc4f86d7b2cab3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_568f73927711cd9f6514e9d7057cdefd = $(`<div id="html_568f73927711cd9f6514e9d7057cdefd" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_af1043d665238178c9cc4f86d7b2cab3.setContent(html_568f73927711cd9f6514e9d7057cdefd);
+            
+        
+
+        circle_marker_85b7c93de7271a569c5578096d8ac85a.bindPopup(popup_af1043d665238178c9cc4f86d7b2cab3)
+        ;
+
+        
+    
+    
+            var circle_marker_ccc654459c999280adee3e4e7772ea09 = L.circleMarker(
+                [1.5564, 104.18523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_0a25c07a5316af22e89715a79e59e40b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_abe55cd85dba127e019ca96f156ec585 = $(`<div id="html_abe55cd85dba127e019ca96f156ec585" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_0a25c07a5316af22e89715a79e59e40b.setContent(html_abe55cd85dba127e019ca96f156ec585);
+            
+        
+
+        circle_marker_ccc654459c999280adee3e4e7772ea09.bindPopup(popup_0a25c07a5316af22e89715a79e59e40b)
+        ;
+
+        
+    
+    
+            var circle_marker_11b73bf40a32f3810ac305d9268cbf56 = L.circleMarker(
+                [1.5564, 104.18523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_7bb96b3cc1ccf842e7fe03f7301d0157 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b11941a40c2bebada3013cc3b4a615cf = $(`<div id="html_b11941a40c2bebada3013cc3b4a615cf" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_7bb96b3cc1ccf842e7fe03f7301d0157.setContent(html_b11941a40c2bebada3013cc3b4a615cf);
+            
+        
+
+        circle_marker_11b73bf40a32f3810ac305d9268cbf56.bindPopup(popup_7bb96b3cc1ccf842e7fe03f7301d0157)
+        ;
+
+        
+    
+    
+            var circle_marker_7cf120892bf29116a9f41c18a294a967 = L.circleMarker(
+                [1.55565, 104.18259],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_5eb234359b30c8c09454de009a4e597c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1a25baf664ab21f3b588b0a684fc8da9 = $(`<div id="html_1a25baf664ab21f3b588b0a684fc8da9" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_5eb234359b30c8c09454de009a4e597c.setContent(html_1a25baf664ab21f3b588b0a684fc8da9);
+            
+        
+
+        circle_marker_7cf120892bf29116a9f41c18a294a967.bindPopup(popup_5eb234359b30c8c09454de009a4e597c)
+        ;
+
+        
+    
+    
+            var circle_marker_1eb4f709e7adeb852d5522f951424c38 = L.circleMarker(
+                [1.56177, 104.18718],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_9a6532658c6fa39836dd69cc2a7fda18 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6114ca5a6452022d697ca53200f05cb3 = $(`<div id="html_6114ca5a6452022d697ca53200f05cb3" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9a6532658c6fa39836dd69cc2a7fda18.setContent(html_6114ca5a6452022d697ca53200f05cb3);
+            
+        
+
+        circle_marker_1eb4f709e7adeb852d5522f951424c38.bindPopup(popup_9a6532658c6fa39836dd69cc2a7fda18)
+        ;
+
+        
+    
+    
+            var circle_marker_f434f98aebe47d9c371ef9e2c94f185d = L.circleMarker(
+                [1.5562, 104.17939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_f74ad2300a739c235e71653ffda8f42b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_996e0a432b71d5b19c89ac2b2c71f0f6 = $(`<div id="html_996e0a432b71d5b19c89ac2b2c71f0f6" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f74ad2300a739c235e71653ffda8f42b.setContent(html_996e0a432b71d5b19c89ac2b2c71f0f6);
+            
+        
+
+        circle_marker_f434f98aebe47d9c371ef9e2c94f185d.bindPopup(popup_f74ad2300a739c235e71653ffda8f42b)
+        ;
+
+        
+    
+    
+            var circle_marker_41a68305ed524307e7dfb5a8637fd0b7 = L.circleMarker(
+                [1.5562, 104.17939],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_35a2b6f5cd5c8aba5365cf913f7712c8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ad8c1d36353c46706620518576c91280 = $(`<div id="html_ad8c1d36353c46706620518576c91280" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_35a2b6f5cd5c8aba5365cf913f7712c8.setContent(html_ad8c1d36353c46706620518576c91280);
+            
+        
+
+        circle_marker_41a68305ed524307e7dfb5a8637fd0b7.bindPopup(popup_35a2b6f5cd5c8aba5365cf913f7712c8)
+        ;
+
+        
+    
+    
+            var circle_marker_c2767dc0ea781e45a6b4f4dec3772316 = L.circleMarker(
+                [1.55491, 104.18021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_9f1bd49491c6cda47be73a2a82f0e32c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c6ca93b9667aed599f9a7580ab515340 = $(`<div id="html_c6ca93b9667aed599f9a7580ab515340" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9f1bd49491c6cda47be73a2a82f0e32c.setContent(html_c6ca93b9667aed599f9a7580ab515340);
+            
+        
+
+        circle_marker_c2767dc0ea781e45a6b4f4dec3772316.bindPopup(popup_9f1bd49491c6cda47be73a2a82f0e32c)
+        ;
+
+        
+    
+    
+            var circle_marker_5f109f548c7acec2cb26629779c33da4 = L.circleMarker(
+                [1.554, 104.17995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_fc03dafe1982f3c2447e52129e0c8a15 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6185bd6fe705931c113659883c0b3414 = $(`<div id="html_6185bd6fe705931c113659883c0b3414" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_fc03dafe1982f3c2447e52129e0c8a15.setContent(html_6185bd6fe705931c113659883c0b3414);
+            
+        
+
+        circle_marker_5f109f548c7acec2cb26629779c33da4.bindPopup(popup_fc03dafe1982f3c2447e52129e0c8a15)
+        ;
+
+        
+    
+    
+            var circle_marker_da7ca3ae7a241a1f366c97c523457bc0 = L.circleMarker(
+                [1.554, 104.17995],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_dfd013ef883f0e9fb7c5838974bc2f96 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5f65c37e35fe2592662db973b0244114 = $(`<div id="html_5f65c37e35fe2592662db973b0244114" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_dfd013ef883f0e9fb7c5838974bc2f96.setContent(html_5f65c37e35fe2592662db973b0244114);
+            
+        
+
+        circle_marker_da7ca3ae7a241a1f366c97c523457bc0.bindPopup(popup_dfd013ef883f0e9fb7c5838974bc2f96)
+        ;
+
+        
+    
+    
+            var circle_marker_dec1b6dd7eb70478ac3caded7e13dba9 = L.circleMarker(
+                [1.54733, 104.15621],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_266c689eb1b6f67ddf3392522262446a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a36d3a680de2a8b731d1cee5ccbcc9d = $(`<div id="html_2a36d3a680de2a8b731d1cee5ccbcc9d" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_266c689eb1b6f67ddf3392522262446a.setContent(html_2a36d3a680de2a8b731d1cee5ccbcc9d);
+            
+        
+
+        circle_marker_dec1b6dd7eb70478ac3caded7e13dba9.bindPopup(popup_266c689eb1b6f67ddf3392522262446a)
+        ;
+
+        
+    
+    
+            var circle_marker_7c60ee3bcc48c66ff38ad732023a8d18 = L.circleMarker(
+                [1.55141, 104.15157],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_194dcfefb84c5ad9242fed4ae955625d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_64c6eac0fedf7736d8fcb2c4fe7b65f6 = $(`<div id="html_64c6eac0fedf7736d8fcb2c4fe7b65f6" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_194dcfefb84c5ad9242fed4ae955625d.setContent(html_64c6eac0fedf7736d8fcb2c4fe7b65f6);
+            
+        
+
+        circle_marker_7c60ee3bcc48c66ff38ad732023a8d18.bindPopup(popup_194dcfefb84c5ad9242fed4ae955625d)
+        ;
+
+        
+    
+    
+            var circle_marker_2f98ef83f18fc9098f4d21baccec0365 = L.circleMarker(
+                [1.55161, 104.15377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_31ec206c74a29b3b19957be698f91362 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f90338a02c4be1fc88ccac4fedeb2d42 = $(`<div id="html_f90338a02c4be1fc88ccac4fedeb2d42" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_31ec206c74a29b3b19957be698f91362.setContent(html_f90338a02c4be1fc88ccac4fedeb2d42);
+            
+        
+
+        circle_marker_2f98ef83f18fc9098f4d21baccec0365.bindPopup(popup_31ec206c74a29b3b19957be698f91362)
+        ;
+
+        
+    
+    
+            var circle_marker_dddcf5851d3e1f8f627677ca7850ac9d = L.circleMarker(
+                [1.55134, 104.15489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_0479d5039259a9977d57b08c45194f33 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_41becc75986b6b0ee2bb58d464979dae = $(`<div id="html_41becc75986b6b0ee2bb58d464979dae" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_0479d5039259a9977d57b08c45194f33.setContent(html_41becc75986b6b0ee2bb58d464979dae);
+            
+        
+
+        circle_marker_dddcf5851d3e1f8f627677ca7850ac9d.bindPopup(popup_0479d5039259a9977d57b08c45194f33)
+        ;
+
+        
+    
+    
+            var circle_marker_93c9a225920d8de39be1e524bb68f96e = L.circleMarker(
+                [1.55134, 104.15489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_e3101e5332821cf982d6214c10c400ce = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bbf2a906aa218d96801e76f157ac4640 = $(`<div id="html_bbf2a906aa218d96801e76f157ac4640" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_e3101e5332821cf982d6214c10c400ce.setContent(html_bbf2a906aa218d96801e76f157ac4640);
+            
+        
+
+        circle_marker_93c9a225920d8de39be1e524bb68f96e.bindPopup(popup_e3101e5332821cf982d6214c10c400ce)
+        ;
+
+        
+    
+    
+            var circle_marker_593a8f5aceff1a435c1516aa7ad19711 = L.circleMarker(
+                [1.55134, 104.15489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_8a80a74cd416e62b5ce956620e97c8cd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1768c6de30c5b3878ac37b1bcc3c673a = $(`<div id="html_1768c6de30c5b3878ac37b1bcc3c673a" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_8a80a74cd416e62b5ce956620e97c8cd.setContent(html_1768c6de30c5b3878ac37b1bcc3c673a);
+            
+        
+
+        circle_marker_593a8f5aceff1a435c1516aa7ad19711.bindPopup(popup_8a80a74cd416e62b5ce956620e97c8cd)
+        ;
+
+        
+    
+    
+            var circle_marker_e5aaf83e9092d88aa738f15a7338015a = L.circleMarker(
+                [1.54791, 104.16561],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_b06d92989409bebcd781ca93f6f15fe0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_465c855f3983c60224f7850def3009eb = $(`<div id="html_465c855f3983c60224f7850def3009eb" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_b06d92989409bebcd781ca93f6f15fe0.setContent(html_465c855f3983c60224f7850def3009eb);
+            
+        
+
+        circle_marker_e5aaf83e9092d88aa738f15a7338015a.bindPopup(popup_b06d92989409bebcd781ca93f6f15fe0)
+        ;
+
+        
+    
+    
+            var circle_marker_9af80c3dc333a3a15c9d30e952f8a9d0 = L.circleMarker(
+                [1.55385, 104.17734],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_3fec1f808d14ac3f160a39169c2e3755 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0f8ed20984fdb7d9334e6183a46a1b84 = $(`<div id="html_0f8ed20984fdb7d9334e6183a46a1b84" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_3fec1f808d14ac3f160a39169c2e3755.setContent(html_0f8ed20984fdb7d9334e6183a46a1b84);
+            
+        
+
+        circle_marker_9af80c3dc333a3a15c9d30e952f8a9d0.bindPopup(popup_3fec1f808d14ac3f160a39169c2e3755)
+        ;
+
+        
+    
+    
+            var circle_marker_78d0ba600206c394d4ace4679e372703 = L.circleMarker(
+                [1.55399, 104.17891],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_ef23aec8b428a92ca126d25a2d52bd42 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dc70391c5db6d581c7c1cd8952204da8 = $(`<div id="html_dc70391c5db6d581c7c1cd8952204da8" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_ef23aec8b428a92ca126d25a2d52bd42.setContent(html_dc70391c5db6d581c7c1cd8952204da8);
+            
+        
+
+        circle_marker_78d0ba600206c394d4ace4679e372703.bindPopup(popup_ef23aec8b428a92ca126d25a2d52bd42)
+        ;
+
+        
+    
+    
+            var circle_marker_e02d853eebcfb815f72e49b3a8ef6576 = L.circleMarker(
+                [1.44903, 103.65291],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_bb5467cbe673cbbceb79319e0c5169e6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_51c77ed57d9af8578b1709d544b22c20 = $(`<div id="html_51c77ed57d9af8578b1709d544b22c20" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_bb5467cbe673cbbceb79319e0c5169e6.setContent(html_51c77ed57d9af8578b1709d544b22c20);
+            
+        
+
+        circle_marker_e02d853eebcfb815f72e49b3a8ef6576.bindPopup(popup_bb5467cbe673cbbceb79319e0c5169e6)
+        ;
+
+        
+    
+    
+            var circle_marker_81fd9e9e9c017c071cca084e4fb8c2ed = L.circleMarker(
+                [1.44946, 103.65374],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_9ea7b899d913bdca43f0c1623a9303cb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2162b2eb82cc3eaabd169c33324e04ba = $(`<div id="html_2162b2eb82cc3eaabd169c33324e04ba" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9ea7b899d913bdca43f0c1623a9303cb.setContent(html_2162b2eb82cc3eaabd169c33324e04ba);
+            
+        
+
+        circle_marker_81fd9e9e9c017c071cca084e4fb8c2ed.bindPopup(popup_9ea7b899d913bdca43f0c1623a9303cb)
+        ;
+
+        
+    
+    
+            var circle_marker_2f599798e9603d3756aeaf0d58b6c64d = L.circleMarker(
+                [1.45133, 103.65546],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_73a1c7e498618dc7d1a902e56f267e69 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_262aab7714499b1ac66a0a8caab1dd5e = $(`<div id="html_262aab7714499b1ac66a0a8caab1dd5e" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_73a1c7e498618dc7d1a902e56f267e69.setContent(html_262aab7714499b1ac66a0a8caab1dd5e);
+            
+        
+
+        circle_marker_2f599798e9603d3756aeaf0d58b6c64d.bindPopup(popup_73a1c7e498618dc7d1a902e56f267e69)
+        ;
+
+        
+    
+    
+            var circle_marker_570d5755d88f081ecd5c65bab4b9a532 = L.circleMarker(
+                [1.45141, 103.6555],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_d7f3059583433e3139a40cbaa039944d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7693c43f2b0a659eed2edb962ac4fc25 = $(`<div id="html_7693c43f2b0a659eed2edb962ac4fc25" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d7f3059583433e3139a40cbaa039944d.setContent(html_7693c43f2b0a659eed2edb962ac4fc25);
+            
+        
+
+        circle_marker_570d5755d88f081ecd5c65bab4b9a532.bindPopup(popup_d7f3059583433e3139a40cbaa039944d)
+        ;
+
+        
+    
+    
+            var circle_marker_06abfb3037ae415d72db8b0be39d912c = L.circleMarker(
+                [1.45255, 103.65608],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_9decb050bf7b317a8f9685e372d193ea = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7cee27f468528116097e080858276165 = $(`<div id="html_7cee27f468528116097e080858276165" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_9decb050bf7b317a8f9685e372d193ea.setContent(html_7cee27f468528116097e080858276165);
+            
+        
+
+        circle_marker_06abfb3037ae415d72db8b0be39d912c.bindPopup(popup_9decb050bf7b317a8f9685e372d193ea)
+        ;
+
+        
+    
+    
+            var circle_marker_706788d91fab3adf1efb161620028c76 = L.circleMarker(
+                [1.45277, 103.65626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_f81fc82ed1009615a5d64e0805810a2c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cc80654f1008f73ba27e3dcddc5e82e8 = $(`<div id="html_cc80654f1008f73ba27e3dcddc5e82e8" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_f81fc82ed1009615a5d64e0805810a2c.setContent(html_cc80654f1008f73ba27e3dcddc5e82e8);
+            
+        
+
+        circle_marker_706788d91fab3adf1efb161620028c76.bindPopup(popup_f81fc82ed1009615a5d64e0805810a2c)
+        ;
+
+        
+    
+    
+            var circle_marker_836b2629acb937f0c7549b0dda16187b = L.circleMarker(
+                [1.45522, 103.66008],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_eb2710b5d471ff624063baebd5dfdf7d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0d88ba251c443765f2e1a2528f9df6c1 = $(`<div id="html_0d88ba251c443765f2e1a2528f9df6c1" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_eb2710b5d471ff624063baebd5dfdf7d.setContent(html_0d88ba251c443765f2e1a2528f9df6c1);
+            
+        
+
+        circle_marker_836b2629acb937f0c7549b0dda16187b.bindPopup(popup_eb2710b5d471ff624063baebd5dfdf7d)
+        ;
+
+        
+    
+    
+            var circle_marker_1e5e82eb04e4567fe6b00db95ed9dfd8 = L.circleMarker(
+                [1.45739, 103.66004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_d557df7cb6dba34bd79526bd15e31725 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_02d671abf0f19172b626ef10ee75291f = $(`<div id="html_02d671abf0f19172b626ef10ee75291f" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_d557df7cb6dba34bd79526bd15e31725.setContent(html_02d671abf0f19172b626ef10ee75291f);
+            
+        
+
+        circle_marker_1e5e82eb04e4567fe6b00db95ed9dfd8.bindPopup(popup_d557df7cb6dba34bd79526bd15e31725)
+        ;
+
+        
+    
+    
+            var circle_marker_256a000d8e69fe1bd10987abbca4f0c5 = L.circleMarker(
+                [1.46133, 103.6618],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_18ef9225654cab3ef31e53691e88b244 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_39205545939bbf9c5c0c800e6d3a3c41 = $(`<div id="html_39205545939bbf9c5c0c800e6d3a3c41" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_18ef9225654cab3ef31e53691e88b244.setContent(html_39205545939bbf9c5c0c800e6d3a3c41);
+            
+        
+
+        circle_marker_256a000d8e69fe1bd10987abbca4f0c5.bindPopup(popup_18ef9225654cab3ef31e53691e88b244)
+        ;
+
+        
+    
+    
+            var circle_marker_48fc86ffbeb9be27e67716fd4e2bc4e9 = L.circleMarker(
+                [1.46795, 103.67538],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_7712dda7aa59429a73868a8bb0203527 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_21eb45a91f2f96f0068b672b39117fe4 = $(`<div id="html_21eb45a91f2f96f0068b672b39117fe4" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_7712dda7aa59429a73868a8bb0203527.setContent(html_21eb45a91f2f96f0068b672b39117fe4);
+            
+        
+
+        circle_marker_48fc86ffbeb9be27e67716fd4e2bc4e9.bindPopup(popup_7712dda7aa59429a73868a8bb0203527)
+        ;
+
+        
+    
+    
+            var circle_marker_955d56d3546a066b6532ef7967b8da27 = L.circleMarker(
+                [1.46874, 103.67629],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_0664fdc3d5247709d8992d9acb927f0e);
+        
+    
+        var popup_34e51b83d576849cf8575a2f934f1c8c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8914929ab10556e75ef81373dfd5c754 = $(`<div id="html_8914929ab10556e75ef81373dfd5c754" style="width: 100.0%; height: 100.0%;">Genus: Pteroptyx<br>Species: bearni<br>Sex: Male<br>Life Stage: Adult</div>`)[0];
+                popup_34e51b83d576849cf8575a2f934f1c8c.setContent(html_8914929ab10556e75ef81373dfd5c754);
+            
+        
+
+        circle_marker_955d56d3546a066b6532ef7967b8da27.bindPopup(popup_34e51b83d576849cf8575a2f934f1c8c)
+        ;
+
+        
+    
+</script>
+</html>
