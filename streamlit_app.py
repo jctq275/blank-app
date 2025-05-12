@@ -15,19 +15,12 @@ species_maps = {
     "Pygoluciola dunguna": "pygoluciola_dunguna_male_adults_map.html"
 }
 
-# Add a header and apply italics to the dropdown using Markdown
-st.markdown("<h3 style='text-align: center;'>Select a Species</h3>", unsafe_allow_html=True)
-species = st.selectbox(
-    "Choose a species:",
-    options=list(species_maps.keys())
-)
-
-# Italicize the species name in the dropdown label using Markdown
-st.markdown(f"<p style='font-size: 18px; font-style: italic; text-align: center;'>{species}</p>", unsafe_allow_html=True)
-
 st.set_page_config(page_title="Species Map Viewer", layout="wide")
 
 st.title("Occurrence of Luciolinae Firefly Species in Malaysia")
+
+# Apply custom CSS for the dropdown label to make it italicized
+st.markdown("<h4 style='font-style: italic;'>Select a species to view its map:</h4>", unsafe_allow_html=True)
 
 # Dropdown for species selection
 species = st.selectbox("Select a species to view its map:", list(species_maps.keys()))
