@@ -16,7 +16,7 @@ species_maps = {
 
 st.set_page_config(page_title="Species Map Viewer", layout="wide")
 
-st.title("🗺️ Interactive Species Map Viewer")
+st.title("Occurrence of Luciolinae Firefly Species in Malaysia")
 
 # Dropdown for species selection
 species = st.selectbox("Select a species to view its map:", list(species_maps.keys()))
