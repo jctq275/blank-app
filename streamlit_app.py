@@ -3,15 +3,15 @@ import streamlit.components.v1 as components
 
 # Dictionary of species and corresponding HTML map files
 species_maps = {
-    "Abscondita pallescens": "/Users/jeromechan/Downloads/abscondita_pallescens_male_adults_map.html",
-    "Abscondita nr. chinensis": "/Users/jeromechan/Downloads/abscondita_nr_chinensis_male_adult_map.html",
-    "Asymmetricata circumdata": "/Users/jeromechan/Downloads/asymmetricata_circumdata_male_adult_map.html",
-    "Colophotia brevis": "/Users/jeromechan/Downloads/colophotia_brevis_male_adult_map.html",
-    "Curtos costipennis": "/Users/jeromechan/Downloads/curtos_costipennis_male_adult_map.html",
-    "Pteroptyx bearni": "/Users/jeromechan/Downloads/pteroptyx_bearni_male_adult_map.html",
-    "Pteroptyx malaccae": "/Users/jeromechan/Downloads/pteroptyx_malaccae_male_adult_map.html",
-    "Pteroptyx tener": "/Users/jeromechan/Downloads/pteroptyx_tener_male_adult_map.html",
-    "Pygoluciola dunguna": "/Users/jeromechan/Downloads/pygoluciola_dunguna_male_adults_map.html"
+    "Abscondita pallescens": "abscondita_pallescens_male_adults_map.html",
+    "Abscondita nr. chinensis": "abscondita_nr_chinensis_male_adult_map.html",
+    "Asymmetricata circumdata": "asymmetricata_circumdata_male_adult_map.html",
+    "Colophotia brevis": "colophotia_brevis_male_adult_map.html",
+    "Curtos costipennis": "curtos_costipennis_male_adult_map.html",
+    "Pteroptyx bearni": "pteroptyx_bearni_male_adult_map.html",
+    "Pteroptyx malaccae": "pteroptyx_malaccae_male_adult_map.html",
+    "Pteroptyx tener": "pteroptyx_tener_male_adult_map.html",
+    "Pygoluciola dunguna": "pygoluciola_dunguna_male_adults_map.html"
 }
 
 st.set_page_config(page_title="Species Map Viewer", layout="wide")
